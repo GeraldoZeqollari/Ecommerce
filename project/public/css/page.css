@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+.navbar_color{
+    background-color: #7E33E0;
+}
+.hekto_text{
+    font-family: Josefin Sans;
+    font-size: 34px;
+    font-weight: bold;
+}
+.search{
+    border: 2px solid #E7E6EF;
+}
+.button{
+    background-color: #FB2E86;
+    color: white;
+    width: 28px;
+    height: 28px;
+    margin-left: -5px;
+}
+.footer{
+    background-color: #EEEFFB;
+}
+.list_element{
+    font-family: LATO;
+    color: #8A8FB9;
+}
+.footer_media{
+    background-color: #E7E4F8;
+}
+.paragraph_color{
+    color: #9DA0AE;
+}
+.text_color{
+font-weight: bold;
+}
+.signUp_button{
+    background-color: #FB2E86;
+    color: white;
+    margin-left: -4px;
+}
+.color{
+    background-color: #F2F0FF;
+}
+     
+.furniture_color{
+    color: #FB2E86;
+}
+.describe_color{
+    color:#8A8FB9;
+}
+.shop_button{
+    background-color: #FB2E86;
+    color: white;
+}
+.title_color{
+    color:#1A0B5B;
+}
+.image_color{
+background-color: #F6F7FB;
+}
+.links{
+   margin:auto;
+}
+.border_color{
+    border:1px solid whitesmoke;
+}
+.paragraph_color{
+    font-family: LATO;
+    color: #151875;
+}
+.price_color{
+    font-family: LATO;  
+    color:#FB2448;
+}
+.text_length{
+    font-family: LATO; 
+    max-width: 32ch;
+    color: #1A0B5B;
+}
+.div_color{
+    background-color: #F1F0FF;
+}
+.h1_position{
+    max-width: 30ch;
+    color: #151875;
+    font-weight: bold;
+    font-family: Josefin Sans;
+}
+li {
+    font-size: 14px;
+    list-style-type: circle;
+ }
+ .description_color{
+     color: #ACABC3;
+ }
+ .discount_color{
+     background-color: #FFF6FB;
+ }
+ .discount_title{
+     color: #151875;
+     font-size: 26px;
+     font-weight: bold;
+ }
+ .discount_text{
+     font-family: Lato;
+     color: #FB2E86;
+     font-weight: bold;
+     
+ }
+ .discount_paragraph{
+    max-width: 50ch;
+    color: #B7BACB;
+    font-size: 17px;
+ }
+ .chair{
+     background-color: #F5F6F8;
+ }
+ .link_color{
+     color:#FB2E86;
+ }
+.check_color{
+    color: blue;
+}
+ .discount_h1{
+     font-size: 35px;
+     color: #151875;
+     font-weight: bold;
+ }
+ .discount_h2{
+    font-size: 21px;
+    color: #FB2E86;
+    
+ }
+ .paragraph_check{
+     color: #B8B8DC;
+ }
+.back_image{
+    background-color: #F6F7FB;
+    border-radius: 50%;
+}
+.paragraph_categories{
+    color:#151875;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    
+}
+.newsletter_h1{
+    font-size: 35px;
+    color: #151875;
+    font-weight: bold;
+    /* max-width: 30ch; */
+}
+.newsletter_image{
+    background-image: url("../images/whiteimage.png");
+}
+.latest_paragraph{
+    max-width: 38ch;
+    color: #72718F;
+}
+.latest_title{
+    color: #151875;
+    font-size: 18px;
+    font-weight: bold;
+}
+.shopgrid_div{
+background-color: #F6F5FF;
+}
+.shopgrid_text{
+    color: #101750;
+    font-size: 36px;
+    font-weight: bold;
+}
+.shopgrid_paragraph{
+    color:#FB2E86;
+}
+.ecommerce{
+    color:#151875 ;
+    font-size: 22px;
+    font-weight: bold;
+}
+.results{
+    color: #8A8FB9;
+    font-size: 11px;
+}
+.filter{
+    color:#3F509E;
+}
+.input{
+    border:1px solid #E7E6EF;
+}
