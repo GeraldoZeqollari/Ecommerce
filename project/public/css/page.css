@@ -191,7 +191,18 @@ background-color: #F6F5FF;
 .input{
     border:1px solid #E7E6EF;
 }
-
+.couch{
+    background-color: #ECD2FA59;
+    border-radius: 50% 55% / 50% 55%;
+}
+.blue_couch{
+    background-color: #F5E1FC;
+    border-radius: 55% 55% / 50% 50%;
+}
+.brown_couch{
+    background-color: #F5E1FC;
+    border-radius: 80% ;
+}
 .ecommerce_paragraph{
    color: #151875; 
    font-size: 18px;
@@ -269,3 +280,13 @@ max-width: 65ch;
    font-weight: 600;
    max-width: 24ch;
 }
+
+@media only screen and (max-width: 765px) {
+
+  
+  }
+  
+  @media only screen and (max-width: 414px) {
+  
+ 
+  }

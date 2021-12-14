@@ -98,7 +98,7 @@
       
       <div class="flex">
 
-       <div class="">
+       <div class="blue_couch">
           <img src="{{ URL::to('/images/bluechair.png') }}" width="509" height="550">
        </div>
 
@@ -180,7 +180,7 @@
      </div>
       <button class="shop_button lg:h-10 lg:w-48">Shop Now</button>
      </div>
-     <div>
+     <div class="brown_couch">
       <img src="{{URL::to('/images/brchair.png')}}" width="690" height="600">
      </div>
    </div>

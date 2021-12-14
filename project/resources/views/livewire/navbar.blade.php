@@ -53,7 +53,7 @@
         </div>
 
         <div class="flex flex-wrap lg:gap-40">
-            <div class="lg:gap-9 flex flex-wrap items-center">
+            <div class="lg:gap-10 flex flex-wrap items-center">
                 <div class="flex flex-wrap items-center lg:gap-3">
                 <a href="#">Home</a><svg width="8" height="4" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 0.5L5 4.5L9 0.5" stroke="#FB2E86" stroke-linecap="round" stroke-linejoin="round"/>
