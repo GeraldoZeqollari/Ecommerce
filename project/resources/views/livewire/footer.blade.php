@@ -1,4 +1,4 @@
-<div class="footer flex flex wrap lg:gap-14 lg:pl-80"> 
+<div class="footer flex flex wrap lg:gap-14 justify-center"> 
         <div class="lg:pt-20 lg:pb-40">
             <h1 class="hekto_text">HEKTO</h1>
             <div>
@@ -54,7 +54,8 @@
         
         
 </div>
-<div class="footer_media lg:pl-96 flex flex-wrap items-center lg:gap-96 lg:p-4">
+
+<div class="footer_media  flex flex-wrap justify-center lg:gap-96 lg:p-4">
     <p class="paragraph_color">@Webecy - All Rights Reserved</p>
     <div class="flex lg:gap-4">
         <div>

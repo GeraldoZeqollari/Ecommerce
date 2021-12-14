@@ -8,14 +8,17 @@
     @livewireStyles
 </head>
 <body>
-    @livewire('navbar') 
-    <livewire:shop-grid title="Shop Grid Default" text="ShopGridDefault"/>
-
-    <livewire:ecommerce title="Ecommerce Accessories & Fashion item" results="About 9620 results(0.62 seconds)" 
-    per_page="Per_page" sort="Sort By" view="View"/>
-
   
+    @livewire('navbar') 
+  
+    <livewire:shop-grid title="Order Completed" text="Order Completed"/>
 
+    <livewire:order-completed image="{{URL::to('/images/clock.png')}}" title="Your Order Is Completed"/>
+    
+    <div class="lg:py-20">
+      <center><img src="{{ URL::to('/images/design.png') }}" width="903" height="93"></center>
+    </div>
+    
     @livewire('footer')
     @livewireScripts
 </body>

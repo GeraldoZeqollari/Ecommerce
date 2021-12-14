@@ -1,12 +1,15 @@
 
 <div>
 
-   <div class="navbar_color flex flex-wrap items-center lg:gap-80 lg:pl-96 lg:p-3.5">
-    <div class="flex flex-wrap lg:gap-8">
-        <div class="flex items-center text-white lg:gap-3 text-base font-sans" >
+   <div class="navbar_color xl:flex xl:flex-wrap xl:items-center lg:flex lg:flex-wrap lg:justify-evenly  lg:p-3.5 md:flex 
+            md:flex-wrap md:items-center md:gap-12 md:py-4 sm:flex sm:flex-wrap sm:text-center sm:py-10 sm:gap-10">
+
+    <div class="flex flex-wrap gap-8">
+        
+         <div class="flex items-center text-white gap-3 text-base font-sans" >
             <i class="far fa-envelope"></i>
             <p >mhhasanul@gmail.com</p>
-        </div>   
+         </div>   
 
         <div class="flex flex-wrap items-center text-white text-base font-sans">
          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -18,7 +21,7 @@
         </div>
     </div>
 
-    <div class="flex flex-wrap items-center lg:gap-5">
+     <div class="flex flex-wrap items-center gap-5 sm:flex sm:items-center">
         <select name="language" id="language" class="text-white navbar_color">
             <option value="english">English</option>
             <option value="italiano">Italiano</option>
@@ -30,21 +33,22 @@
             <option value="euro">EURO</option>
            
         </select>
-        <div class="flex items-center lg:gap-3 text-white">
+        <div class="flex items-center gap-3 text-white">
                 <p>Login</p>
                 <i class="far fa-user"></i>
         </div>
-        <div class="flex items-center lg:gap-3 text-white">
+        <div class="flex items-center gap-3 text-white">
                 <p>Wishlist</p>
                 <i class="far fa-heart"></i>
         </div>
         <i class="text-white fas fa-shopping-cart"></i>
-    </div>
+     </div>
 
    </div>
 
-    <div class="flex flex-wrap lg:pl-96 lg:p-8 items-center lg:gap-20">
-        <div>
+   <div class="flex flex-col items-center">
+    <div class="flex flex-wrap  lg:p-8 items-center lg:gap-20">
+        <div class="">
              <h1 class="hekto_text">HEKTO</h1>
         </div>
 
@@ -69,5 +73,6 @@
             </div>
         </div>  
     </div>
+   </div>
  
 </div>

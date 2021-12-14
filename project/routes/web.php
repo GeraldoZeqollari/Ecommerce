@@ -19,5 +19,20 @@ Route::get('/', function () {
 
 
 Route::get('/shopgrid', function () {
-    return view('shopgrid');
+    return view('layouts.shopgrid');
+});
+Route::get('/shoplist', function () {
+    return view('layouts.shoplist');
+});
+
+Route::get('/order', function () {
+    return view('layouts.order');
+});
+
+Route::get('/about', function () {
+    return view('layouts.about');
+});
+
+Route::get('/contact', function () {
+    return view('layouts.contact');
 });

@@ -151,7 +151,7 @@ li {
     font-size: 35px;
     color: #151875;
     font-weight: bold;
-    /* max-width: 30ch; */
+    
 }
 .newsletter_image{
     background-image: url("../images/whiteimage.png");
@@ -190,4 +190,82 @@ background-color: #F6F5FF;
 }
 .input{
     border:1px solid #E7E6EF;
+}
+
+.ecommerce_paragraph{
+   color: #151875; 
+   font-size: 18px;
+   font-family: Josefin Sans;
+   font-weight:bold;
+}
+.ecommerce_price{
+    color: #151875; 
+    font-size: 13px;
+    font-family: Josefin Sans;
+}
+.ecommerce_reduced{
+    color: #FB2E86; 
+    font-size: 13px;
+    font-family: Josefin Sans;
+}
+.shoplist_title{
+    color:#111C85;
+    font-size: 20px;
+    font-family: Josefin Sans;
+}
+.shoplist_price{
+    color:#111C85;
+    font-size: 15px;
+    font-family: Josefin Sans;
+}
+.shoplist_price_reduced{
+    color:#FF2AAA;
+    font-size: 15px;
+    font-family: Josefin Sans;
+}
+.shoplist_text{
+    font-weight: 400;
+    color:#9295AA;
+    font-size: 17px;
+    font-family: Josefin Sans;
+    max-width: 55ch;
+}
+.order_h1{
+    color:#101750;
+    font-size: 36px;
+    font-family: Josefin Sans;
+   font-weight:bold;
+}
+.order_paragraph{
+    color:#8D92A7;
+    font-size: 16px;
+    font-family: Lato;
+   font-weight: 600;
+   max-width: 80ch;
+}
+.about_paragraph{
+max-width: 65ch;
+}
+.about_div{
+    background-color: #FBFBFF;
+}
+.client_paragraph{
+    color: #8A8FB9;
+    font-size: 16px;
+    font-family: Lato;
+   font-weight: 700;
+   max-width: 80ch;
+}
+.client_name{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Lato;
+    color: #151875;
+}
+.contact_paragraph{
+    color: #8A8FB9;
+    font-size: 16px;
+    font-family: Lato;
+   font-weight: 600;
+   max-width: 24ch;
 }

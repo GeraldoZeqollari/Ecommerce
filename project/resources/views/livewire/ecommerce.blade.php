@@ -1,11 +1,13 @@
-<div class="flex  lg:pl-96 lg:pt-28 lg:pb-40 lg:gap-44">
+<div class="flex  flex-wrap  lg:pt-28 lg:pb-40 lg:gap-44">
+
     <div>
         <h1 class="ecommerce">{{$title}}</h1>
         <p class="results">{{$results}}</p>
     </div>
+
     <div class="flex">
         
-        <div class="flex items-center lg:w-1/5">
+        <div class="flex items-center">
             <p class="filter">{{$per_page}}</p><input type="text" class="input" style="width: 30%"/>
         </div>
 
@@ -22,4 +24,5 @@
         </div>
 
     </div>
+
 </div>
