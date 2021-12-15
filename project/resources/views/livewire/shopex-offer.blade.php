@@ -1,4 +1,4 @@
-<div class="lg:pt-16">
+<div class=" shadow-lg">
    <div class="text-center border_color"> 
     <div class="flex lg:pl-24 lg:pt-14">
     <img src="{{ $image}}" width="60" height="40">

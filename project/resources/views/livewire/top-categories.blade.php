@@ -1,5 +1,5 @@
 <div class="text-center">
-    <div class="back_image lg:py-11 lg:px-11">
+    <div class="back_image lg:py-11 lg:px-11 shadow-lg">
     <img src="{{$image}}" width="158" height="157">
     </div>
     <div class="lg:pt-6">

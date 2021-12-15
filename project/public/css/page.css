@@ -15,7 +15,7 @@
 }
 .swiper{
     width: 800px;
-    height: 450px;
+    height: 400px;
 }
 .swiper_trends{
     width: 1500px;
@@ -87,7 +87,6 @@
     font-family: LATO;  
     color:#FB2448;
     text-decoration-line: line-through;
-
 }
 .text_length{
     font-family: LATO; 
@@ -159,13 +158,11 @@ li {
     color:#151875;
     font-family: Josefin Sans;
     font-size: 20px;
-    
 }
 .newsletter_h1{
     font-size: 35px;
     color: #151875;
     font-weight: bold;
-    
 }
 .newsletter_image{
     background-image: url("../images/whiteimage.png");
@@ -303,11 +300,11 @@ li {
 
 @media only screen and (max-width: 765px) {
     .lamp{
-       
       display: none;
     }
+    
    
-  }
+}
   
   @media only screen and (max-width: 414px) {
   

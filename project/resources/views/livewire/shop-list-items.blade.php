@@ -1,11 +1,11 @@
-<div class="flex border_color items-center lg:gap-7">
+<div class="flex border_color items-center gap-7 pt-4 shadow-lg">
   <div>
     <img src="{{ $image }}" width="313" height="217">
   </div>
 
   <div>
-      <h1 class="shoplist_title lg:py-4 ">{{$title}}</h1>
-      <div class="flex lg:gap-4">
+      <h1 class="shoplist_title py-4 ">{{$title}}</h1>
+      <div class="flex gap-4">
         <p class="shoplist_price">{{$price}}</p>
         <p class="shoplist_price_reduced lg:pb-4">{{$reduced_price}}</p>
       </div>

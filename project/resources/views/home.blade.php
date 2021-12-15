@@ -14,7 +14,6 @@
 
     @livewireStyles
 
-
     <script type="module">
         import Swiper from 'https://unpkg.com/swiper@7/swiper-bundle.esm.browser.min.js'
         const swiper = new Swiper('.swiper', {
@@ -46,13 +45,10 @@
     @livewire('navbar') 
   
   <div class="flex flex-col items-center">
-
     <div class="color lg:pl-16 md:pl-8 sm:pl-4 flex">
-
       <div class="swiper swiper_trends">
        
         <div class="swiper-wrapper">
-          
 
           <div class="swiper-slide flex">
             <div>
@@ -138,14 +134,11 @@
         </div>
         
         <div class="swiper-pagination"></div>
-
       </div>
-
     </div>
 
-      {{-- shadow tailwind --}}
-    <div class="lg:pt-32">
-    <livewire:product-title title_text="Featured Products"/>
+    <div class="lg:pt-32 lg:pb-12">
+      <livewire:product-title title_text="Featured Products"/>
     </div>
 
     <div class="swiper">
@@ -176,7 +169,6 @@
       <div class="swiper-pagination"></div>
     
     </div>
-   
 
     <div class="grid items-center lg:pt-32">
       <livewire:product-title title_text="Latest Products"/>
@@ -187,7 +179,6 @@
         <a href="#">Special Offer</a>
       </div>
     </div>
-
 
     <div class="">
       <div class="flex lg:gap-11">
@@ -202,8 +193,8 @@
       </div>
     </div>
 
-    <div class="lg:pt-32">
-     <livewire:product-title title_text="What Shopex Offer!"/>
+    <div class="lg:pt-32 lg:pb-12">
+        <livewire:product-title title_text="What Shopex Offer!"/>
     </div>
 
     <div class=" lg:pb-32 flex lg:gap-4">
@@ -212,45 +203,44 @@
       <livewire:shopex-offer image="{{URL::to('/images/truck.jpg')}}" text="24/7 Support" description="Lorem ipsum dolor sit amet,consectur adipiscng elit.Massa purus gravida."/>
       <livewire:shopex-offer image="{{URL::to('/images/truck.jpg')}}" text="24/7 Support" description="Lorem ipsum dolor sit amet,consectur adipiscng elit.Massa purus gravida."/>
     </div>
-
   </div>
 
-    
-    <div class="div_color flex justify-center" >
+  <div class="div_color flex justify-center" >
       
       <div class="flex">
 
-       <div class="blue_couch">
-          <img src="{{ URL::to('/images/bluechair.png') }}" width="509" height="550">
-       </div>
-
-      <div class="lg:pt-24 ">
-
-        <h1 class="h1_position text-3xl">Unique Features Of leatest & Trending Poducts</h1>
-        <div class=" lg:pt-11">
-        <ul class="description_color">
-          <li>All frames constructed with hardwood solids and laminates</li>
-          <li>Reinforced with double wood dowels, glue, screw - nails corner blocks and machine nails</li>
-          <li>Arms, backs and seats are structurally reinforced</li>
-        </ul>
+        <div class="blue_couch">
+           <img src="{{ URL::to('/images/bluechair.png') }}" width="509" height="550">
         </div>
-         <div class="lg:pt-9 flex items-center lg:gap-4">
-          <button class="shop_button lg:h-10 lg:w-32">Add To Cart</button>
-          <div>
-            <p class="paragraph_color">B&B Italian Sofa</p>
-            <p class="paragraph_color">$32.00</p>
+
+        <div class="lg:pt-24 ">
+
+          <h1 class="h1_position text-3xl">Unique Features Of leatest & Trending Poducts</h1>
+          <div class=" lg:pt-11">
+            <ul class="description_color">
+              <li>All frames constructed with hardwood solids and laminates</li>
+              <li>Reinforced with double wood dowels, glue, screw - nails corner blocks and machine nails</li>
+              <li>Arms, backs and seats are structurally reinforced</li>
+            </ul>
           </div>
-         </div>
-      </div>
+
+          <div class="lg:pt-9 flex items-center lg:gap-4">
+            <button class="shop_button lg:h-10 lg:w-32">Add To Cart</button>
+            <div>
+              <p class="paragraph_color">B&B Italian Sofa</p>
+              <p class="paragraph_color">$32.00</p>
+            </div>
+          </div>
+
+        </div>
 
       </div>
 
-    </div>
-
+  </div>
 
   <div class="flex flex-col items-center">
 
-    <div class="lg:pt-32">
+    <div class="lg:pt-32 lg:pb-12">
       <livewire:product-title title_text="Trending Products"/>
     </div>
 
@@ -263,15 +253,15 @@
 
     <div class="flex  lg:pt-12 lg:gap-7">
       <div>
-      <livewire:trending-products-discount title="23% off in all products"  text="Shop Now"  image="{{ URL::to('/images/image.png') }}"/>
+        <livewire:trending-products-discount title="23% off in all products"  text="Shop Now"  image="{{ URL::to('/images/image.png') }}"/>
       </div>
       <div>
-      <livewire:trending-products-discount title="23% off in all products"  text="Shop Now"  image="{{ URL::to('/images/image.png') }}"/>
+        <livewire:trending-products-discount title="23% off in all products"  text="Shop Now"  image="{{ URL::to('/images/image.png') }}"/>
       </div>
       <div class="grid lg:gap-4">
-      <livewire:trending-products-chair image="{{ URL::to('/images/smallchair.png') }}" text="Executive Seat chair" price="$30.00"/>
-      <livewire:trending-products-chair image="{{ URL::to('/images/smallchair.png') }}" text="Executive Seat chair" price="$30.00"/>
-      <livewire:trending-products-chair image="{{ URL::to('/images/smallchair.png') }}" text="Executive Seat chair" price="$30.00"/>
+        <livewire:trending-products-chair image="{{ URL::to('/images/smallchair.png') }}" text="Executive Seat chair" price="$30.00"/>
+        <livewire:trending-products-chair image="{{ URL::to('/images/smallchair.png') }}" text="Executive Seat chair" price="$30.00"/>
+        <livewire:trending-products-chair image="{{ URL::to('/images/smallchair.png') }}" text="Executive Seat chair" price="$30.00"/>
       </div>
     </div>
 
@@ -287,24 +277,26 @@
 
     <div class="flex items-center">
      <div class="">
-     <h1 class="discount_h1 lg:pb-4">20% Discount Of All Products</h1>
-     <h2 class="discount_h2 lg:pb-6">Eams Sofa Compact</h2>
-     <p class="discount_paragraph lg:pb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eu eget feugiat habitasee nec, bibedum condimemtun</p>
-     <div class="flex lg:gap-6 lg:pb-6">
-       <div class="grid items-start">
-          <p class="paragraph_check"><span class="check_color">✓</span>Material expose like metals</p>
-          <p class="paragraph_check"><span class="check_color">✓</span>Simple neutral colors</p>
-       </div>
-       <div class="grid items-start">
-          <p class="paragraph_check"><span class="check_color">✓</span>Clear lines and geomatric figures</p>
-          <p class="paragraph_check"><span class="check_color">✓</span>Material expose like metals</p>
-       </div>
+        <h1 class="discount_h1 lg:pb-4">20% Discount Of All Products</h1>
+        <h2 class="discount_h2 lg:pb-6">Eams Sofa Compact</h2>
+        <p class="discount_paragraph lg:pb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eu eget feugiat habitasee nec, bibedum condimemtun</p>
+          <div class="flex lg:gap-6 lg:pb-6">
+            <div class="grid items-start">
+              <p class="paragraph_check"><span class="check_color">✓</span>Material expose like metals</p>
+              <p class="paragraph_check"><span class="check_color">✓</span>Simple neutral colors</p>
+            </div>
+            <div class="grid items-start">
+                <p class="paragraph_check"><span class="check_color">✓</span>Clear lines and geomatric figures</p>
+                 <p class="paragraph_check"><span class="check_color">✓</span>Material expose like metals</p>
+            </div>
+          </div>
+        <button class="shop_button lg:h-10 lg:w-48">Shop Now</button>
      </div>
-      <button class="shop_button lg:h-10 lg:w-48">Shop Now</button>
-     </div>
+     
      <div class="brown_couch">
       <img src="{{URL::to('/images/brchair.png')}}" width="690" height="600">
      </div>
+     
     </div>
 
     <div class="lg:pt-32 lg:pb-12">
@@ -348,14 +340,14 @@
 
   </div>
 
-   <div class="lg:py-40  newsletter_image">
+  <div class="lg:py-40  newsletter_image">
     <div class="text-center">
       <div class="text-center">
         <h1 class="newsletter_h1 "> Get Latest Update By Subscribing</h1><h1 class="newsletter_h1 lg:pb-7"> Our Newsletter</h1>
       </div>
-    <button class="shop_button lg:h-10 lg:w-44">Shop Now</button>
+     <button class="shop_button lg:h-10 lg:w-44">Shop Now</button>
     </div>
-   </div>
+  </div>
    
    <div class="lg:pt-24 text-center">
     <center><img src="{{ URL::to('/images/design.png') }}" width="903" height="93"></center>
@@ -368,7 +360,7 @@
    </div>
 
    <div class="flex lg:pt-20  lg:gap-12 lg:pb-24">
-     <livewire:leatest-blog image="{{URL::to('/images/latest.png')}}" text="SaberAli" date="21 August,2020"
+      <livewire:leatest-blog image="{{URL::to('/images/latest.png')}}" text="SaberAli" date="21 August,2020"
        title="Top essentialTrends in 2021" description="More of this less hello samlande lied much over tightly circa horse taped mightly"/>
       <livewire:leatest-blog image="{{URL::to('/images/latest.png')}}" text="SaberAli" date="21 August,2020"
        title="Top essentialTrends in 2021" description="More of this less hello samlande lied much over tightly circa horse taped mightly"/>

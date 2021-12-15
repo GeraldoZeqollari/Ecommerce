@@ -8,8 +8,8 @@
             <p class="list_element lg:pt-10">Contact info</p>
             <p class="list_element">17 Princes Road London, Greater London NW1 BJR,UK</p>
         </div>
-    <div class="flex lg:gap-20 lg:pt-20">
 
+    <div class="flex lg:gap-20 lg:pt-20">
         <div class="">
             <h2 class="text-xl text_color">Categories</h2>
             <div class="lg:pt-8" >
@@ -49,10 +49,7 @@
             </ul>
             </div>
         </div>
-
     </div>
-        
-        
 </div>
 
 <div class="footer_media  flex flex-wrap justify-center lg:gap-96 lg:p-4">
