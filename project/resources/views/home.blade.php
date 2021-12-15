@@ -6,56 +6,177 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{mix('css/app.css')}}">
     <link href="{{ asset('css/page.css') }}" rel="stylesheet" type="text/css">
-    <link
-    rel="stylesheet"
-    href="https://use.fontawesome.com/releases/v5.10.2/css/all.css"
-  />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css"/>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
     @livewireStyles
+
+
+    <script type="module">
+        import Swiper from 'https://unpkg.com/swiper@7/swiper-bundle.esm.browser.min.js'
+        const swiper = new Swiper('.swiper', {
+ 
+        direction: 'horizontal',
+        loop: true,
+
+        pagination: {
+          el: '.swiper-pagination',
+         },
+
+        navigation: {
+         nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+      },
+
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+      });
+
+
+    </script>
+
 </head>
+
 <body>
   
     @livewire('navbar') 
   
   <div class="flex flex-col items-center">
 
-    <div class="color pl-16 flex">
-      <div>
-        <img src="{{ URL::to('/images/lamp.png') }}" width="387" height="387">
-      
-        <div class="lg:pt-32 lg:pl-20">
-         <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="7.5" cy="7.5" r="7.5" fill="#FB2E86"/>
-         </svg>
-        </div>
+    <div class="color lg:pl-16 md:pl-8 sm:pl-4 flex">
 
-      </div>   
-        
-      <div class="lg:pt-40 md:pt-16">
-        <p class="furniture_color">Best Furniture For Your Castle...</p>
-        <h1 class="text-5xl pt-3">New Furniture Collection Trends in 2020</h1>
-        <p class="describe_color lg:pt-3 lg:pb-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis pariatur dolorum, velit saepe aliquid perferendis. 
-          Eveniet, velit eos!
-         </p>
-         <button class="shop_button lg:h-10 lg:w-32">Shop Now</button>
-      </div> 
-
-      <div class="couch pt-24 flex">
-        <img src="{{ URL::to('/images/couch.png') }}" width="629" height="629"> 
-      </div> 
+      <div class="swiper swiper_trends">
+       
+        <div class="swiper-wrapper">
           
+
+          <div class="swiper-slide flex">
+            <div>
+              <img src="{{ URL::to('/images/lamp.png') }}" class="lamp" width="387" height="387">
+            
+              <div class=" lamp lg:pt-32 lg:pl-20">
+               <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="7.5" cy="7.5" r="7.5" fill="#FB2E86"/>
+               </svg>
+              </div>
+      
+            </div>   
+              
+            <div class="lg:pt-40 md:pt-16">
+              <p class="furniture_color">Best Furniture For Your Castle...</p>
+              <h1 class="lg:text-5xl md:text-xl  pt-3">New Furniture Collection Trends in 2020</h1>
+              <p class="describe_color lg:pt-3 lg:pb-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis pariatur dolorum, velit saepe aliquid perferendis. 
+                Eveniet, velit eos!
+               </p>
+               <button class="shop_button lg:h-10 lg:w-32">Shop Now</button>
+            </div> 
+      
+            <div class="couch pt-24 flex">
+              <img src="{{ URL::to('/images/couch.png') }}" class="couch" width="629" height="629"> 
+            </div> 
+
+
+          </div>
+
+          <div class="swiper-slide flex">
+            <div>
+              <img src="{{ URL::to('/images/lamp.png') }}" class="lamp" width="387" height="387">
+            
+              <div class=" lamp lg:pt-32 lg:pl-20">
+               <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="7.5" cy="7.5" r="7.5" fill="#FB2E86"/>
+               </svg>
+              </div>
+      
+            </div>   
+              
+            <div class="lg:pt-40 md:pt-16">
+              <p class="furniture_color">Best Furniture For Your Castle...</p>
+              <h1 class="lg:text-5xl md:text-xl  pt-3">New Furniture Collection Trends in 2020</h1>
+              <p class="describe_color lg:pt-3 lg:pb-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis pariatur dolorum, velit saepe aliquid perferendis. 
+                Eveniet, velit eos!
+               </p>
+               <button class="shop_button lg:h-10 lg:w-32">Shop Now</button>
+            </div> 
+      
+            <div class="couch pt-24 flex">
+              <img src="{{ URL::to('/images/couch.png') }}" class="couch" width="629" height="629"> 
+            </div> 
+          </div>
+
+          <div class="swiper-slide flex">
+
+            <div>
+             <img src="{{ URL::to('/images/lamp.png') }}" class="lamp" width="387" height="387">
+          
+             <div class=" lamp lg:pt-32 lg:pl-20">
+               <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <circle cx="7.5" cy="7.5" r="7.5" fill="#FB2E86"/>
+               </svg>
+             </div>
+    
+            </div>   
+            
+            <div class="lg:pt-40 md:pt-16">
+              <p class="furniture_color">Best Furniture For Your Castle...</p>
+              <h1 class="lg:text-5xl md:text-xl  pt-3">New Furniture Collection Trends in 2020</h1>
+              <p class="describe_color lg:pt-3 lg:pb-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis pariatur dolorum, velit saepe aliquid perferendis. 
+                Eveniet, velit eos!
+               </p>
+              <button class="shop_button lg:h-10 lg:w-32">Shop Now</button>
+            </div> 
+    
+            <div class="couch pt-24 flex">
+             <img src="{{ URL::to('/images/couch.png') }}" class="couch" width="629" height="629"> 
+            </div> 
+          </div>
+          
+        </div>
+        
+        <div class="swiper-pagination"></div>
+
+      </div>
+
     </div>
 
+      {{-- shadow tailwind --}}
     <div class="lg:pt-32">
     <livewire:product-title title_text="Featured Products"/>
     </div>
 
-    <div class="flex gap-8">
-      <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
-      <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
-      <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
-      <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
-
+    <div class="swiper">
+      
+      <div class="swiper-wrapper">
+       
+        <div class="swiper-slide flex gap-9">
+          <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
+          <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
+          <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
+          <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
+        </div>
+        <div class="swiper-slide flex gap-9">
+          <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
+          <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
+          <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
+          <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
+        </div>
+        <div class="swiper-slide flex gap-9">
+          <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
+          <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
+          <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
+          <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
+        </div>
+      
+      </div>
+     
+      <div class="swiper-pagination"></div>
+    
     </div>
+   
 
     <div class="grid items-center lg:pt-32">
       <livewire:product-title title_text="Latest Products"/>
@@ -82,7 +203,7 @@
     </div>
 
     <div class="lg:pt-32">
-    <livewire:product-title title_text="What Shopex Offer!"/>
+     <livewire:product-title title_text="What Shopex Offer!"/>
     </div>
 
     <div class=" lg:pb-32 flex lg:gap-4">
@@ -91,6 +212,7 @@
       <livewire:shopex-offer image="{{URL::to('/images/truck.jpg')}}" text="24/7 Support" description="Lorem ipsum dolor sit amet,consectur adipiscng elit.Massa purus gravida."/>
       <livewire:shopex-offer image="{{URL::to('/images/truck.jpg')}}" text="24/7 Support" description="Lorem ipsum dolor sit amet,consectur adipiscng elit.Massa purus gravida."/>
     </div>
+
   </div>
 
     
@@ -153,17 +275,17 @@
       </div>
     </div>
 
-   <div class="grid items-center lg:pt-32">
-    <livewire:product-title title_text="Discount Item"/>
+    <div class="grid items-center lg:pt-32">
+     <livewire:product-title title_text="Discount Item"/>
       <div class="links flex lg:gap-10 lg:pt-8  items-center lg:pl-8">
         <u><a href="#" class="link_color">Wood Chair</a></u>
         <a href="#">Plastic Chair</a>
         <a href="#">Sofa Collection</a>
         
       </div>
-   </div>
+    </div>
 
-   <div class="flex items-center">
+    <div class="flex items-center">
      <div class="">
      <h1 class="discount_h1 lg:pb-4">20% Discount Of All Products</h1>
      <h2 class="discount_h2 lg:pb-6">Eams Sofa Compact</h2>
@@ -183,23 +305,50 @@
      <div class="brown_couch">
       <img src="{{URL::to('/images/brchair.png')}}" width="690" height="600">
      </div>
-   </div>
+    </div>
 
-   <div class="lg:pt-32">
-   <livewire:product-title title_text="Top Categories"/>
-   </div>
+    <div class="lg:pt-32 lg:pb-12">
+      <livewire:product-title title_text="Top Categories"/>
+    </div>
 
-   <div class="flex items-center  lg:pt-12 lg:gap-10 lg:pb-44">
-     <livewire:top-categories image="{{URL::to('/images/whitechair.png')}}" text="Mini LCW Chair" price="$56.00"/>
-     <livewire:top-categories image="{{URL::to('/images/whitechair.png')}}" text="Mini LCW Chair" price="$56.00"/>
-     <livewire:top-categories image="{{URL::to('/images/whitechair.png')}}" text="Mini LCW Chair" price="$56.00"/>
-     <livewire:top-categories image="{{URL::to('/images/whitechair.png')}}" text="Mini LCW Chair" price="$56.00"/>
+    <div class="swiper swiper_categories">
+   
+      <div class="swiper-wrapper">
+      
+        <div class="swiper-slide flex gap-9">
+          <livewire:top-categories image="{{URL::to('/images/whitechair.png')}}" text="Mini LCW Chair" price="$56.00"/>
+          <livewire:top-categories image="{{URL::to('/images/whitechair.png')}}" text="Mini LCW Chair" price="$56.00"/>
+          <livewire:top-categories image="{{URL::to('/images/whitechair.png')}}" text="Mini LCW Chair" price="$56.00"/>
+          <livewire:top-categories image="{{URL::to('/images/whitechair.png')}}" text="Mini LCW Chair" price="$56.00"/>
+        </div>
 
-   </div>
+        <div class="swiper-slide flex gap-9">
+          <livewire:top-categories image="{{URL::to('/images/whitechair.png')}}" text="Mini LCW Chair" price="$56.00"/>
+          <livewire:top-categories image="{{URL::to('/images/whitechair.png')}}" text="Mini LCW Chair" price="$56.00"/>
+          <livewire:top-categories image="{{URL::to('/images/whitechair.png')}}" text="Mini LCW Chair" price="$56.00"/>
+          <livewire:top-categories image="{{URL::to('/images/whitechair.png')}}" text="Mini LCW Chair" price="$56.00"/>
+        </div>
+
+        <div class="swiper-slide flex gap-9">
+          <livewire:top-categories image="{{URL::to('/images/whitechair.png')}}" text="Mini LCW Chair" price="$56.00"/>
+          <livewire:top-categories image="{{URL::to('/images/whitechair.png')}}" text="Mini LCW Chair" price="$56.00"/>
+          <livewire:top-categories image="{{URL::to('/images/whitechair.png')}}" text="Mini LCW Chair" price="$56.00"/>
+          <livewire:top-categories image="{{URL::to('/images/whitechair.png')}}" text="Mini LCW Chair" price="$56.00"/>
+        </div>
+      
+      </div>
+   
+      <div class="swiper-pagination"></div>
+
+
+    </div>
+
+    <div class="pt-24">
+    </div>
 
   </div>
 
-   <div class="lg:py-40  newsletter_image" >
+   <div class="lg:py-40  newsletter_image">
     <div class="text-center">
       <div class="text-center">
         <h1 class="newsletter_h1 "> Get Latest Update By Subscribing</h1><h1 class="newsletter_h1 lg:pb-7"> Our Newsletter</h1>

@@ -18,6 +18,7 @@ Route::get('/', function () {
 });
 
 
+
 Route::get('/shopgrid', function () {
     return view('layouts.shopgrid');
 });

@@ -20,31 +20,36 @@
 
 
 
-    <div class="flex flex-col items-center">
-      <div class="flex lg:gap-12">
+   <div class="flex flex-col items-center">
+
+      <div class="flex lg:gap-12 ecom_accessories">
         <livewire:ecommerce-items image="{{URL::to('/images/lightgray.png')}}" title="Vel elit euismod" price="$26.00" reduced_price="$42.00"/>
         <livewire:ecommerce-items image="{{URL::to('/images/lightgray.png')}}" title="Vel elit euismod" price="$26.00" reduced_price="$42.00"/>
         <livewire:ecommerce-items image="{{URL::to('/images/lightgray.png')}}" title="Vel elit euismod" price="$26.00" reduced_price="$42.00"/>
         <livewire:ecommerce-items image="{{URL::to('/images/lightgray.png')}}" title="Vel elit euismod" price="$26.00" reduced_price="$42.00"/>
       </div>
-      <div class="flex lg:gap-12 lg:pt-20">
+
+      <div class="flex lg:gap-12 lg:pt-20 ecom_accessories">
         <livewire:ecommerce-items image="{{URL::to('/images/lightgray.png')}}" title="Vel elit euismod" price="$26.00" reduced_price="$42.00"/>
         <livewire:ecommerce-items image="{{URL::to('/images/lightgray.png')}}" title="Vel elit euismod" price="$26.00" reduced_price="$42.00"/>
         <livewire:ecommerce-items image="{{URL::to('/images/lightgray.png')}}" title="Vel elit euismod" price="$26.00" reduced_price="$42.00"/>
         <livewire:ecommerce-items image="{{URL::to('/images/lightgray.png')}}" title="Vel elit euismod" price="$26.00" reduced_price="$42.00"/>
       </div>
-      <div class="flex lg:gap-12 lg:pt-20">
+
+      <div class="flex lg:gap-12 lg:pt-20 ecom_accessories">
         <livewire:ecommerce-items image="{{URL::to('/images/lightgray.png')}}" title="Vel elit euismod" price="$26.00" reduced_price="$42.00"/>
        <livewire:ecommerce-items image="{{URL::to('/images/lightgray.png')}}" title="Vel elit euismod" price="$26.00" reduced_price="$42.00"/>
         <livewire:ecommerce-items image="{{URL::to('/images/lightgray.png')}}" title="Vel elit euismod" price="$26.00" reduced_price="$42.00"/>
        <livewire:ecommerce-items image="{{URL::to('/images/lightgray.png')}}" title="Vel elit euismod" price="$26.00" reduced_price="$42.00"/>
 
       </div>
+
    </div>
 
    <div class="lg:py-20">
     <center><img src="{{ URL::to('/images/design.png') }}" width="903" height="93"></center>
    </div>
+
     @livewire('footer')
     @livewireScripts
 </body>

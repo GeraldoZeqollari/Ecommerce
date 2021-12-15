@@ -4,11 +4,11 @@
         <div class="div_color lg:pt-4 lg:pr-5 lg:pl-5">
             <img src="{{$image}}" width="171" height="171">
         </div>
-        <div class="text-center lg:pt-5 lg:pb-4">
-         <p>{{$text}}</p>
-                <div class="flex lg:pl-10 lg:gap-4">
-                    <p>{{$reduced_price}}</p>
-                    <p>{{$price}}</p>
+        <div class="flex flex-col items-center lg:pt-5 lg:pb-4">
+         <p class="paragraph_color"> {{$text}}</p>
+                <div class="flex  lg:gap-4">
+                    <p class="ecommerce_price"> {{$reduced_price}}</p>
+                    <p class="reduce">{{$price}}</p>
                 </div>
         </div>
       </div>

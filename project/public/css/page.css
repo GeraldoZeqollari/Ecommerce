@@ -13,6 +13,18 @@
 .search{
     border: 2px solid #E7E6EF;
 }
+.swiper{
+    width: 800px;
+    height: 450px;
+}
+.swiper_trends{
+    width: 1500px;
+    height: 764px;
+}
+.swiper_categories{
+    height:320px;
+}
+
 .button{
     background-color: #FB2E86;
     color: white;
@@ -34,7 +46,7 @@
     color: #9DA0AE;
 }
 .text_color{
-font-weight: bold;
+    font-weight: bold;
 }
 .signUp_button{
     background-color: #FB2E86;
@@ -59,10 +71,10 @@ font-weight: bold;
     color:#1A0B5B;
 }
 .image_color{
-background-color: #F6F7FB;
+    background-color: #F6F7FB;
 }
 .links{
-   margin:auto;
+    margin:auto;
 }
 .border_color{
     border:1px solid whitesmoke;
@@ -74,6 +86,8 @@ background-color: #F6F7FB;
 .price_color{
     font-family: LATO;  
     color:#FB2448;
+    text-decoration-line: line-through;
+
 }
 .text_length{
     font-family: LATO; 
@@ -94,20 +108,20 @@ li {
     list-style-type: circle;
  }
  .description_color{
-     color: #ACABC3;
+    color: #ACABC3;
  }
  .discount_color{
-     background-color: #FFF6FB;
+    background-color: #FFF6FB;
  }
  .discount_title{
-     color: #151875;
-     font-size: 26px;
-     font-weight: bold;
+    color: #151875;
+    font-size: 26px;
+    font-weight: bold;
  }
  .discount_text{
-     font-family: Lato;
-     color: #FB2E86;
-     font-weight: bold;
+    font-family: Lato;
+    color: #FB2E86;
+    font-weight: bold;
      
  }
  .discount_paragraph{
@@ -116,18 +130,18 @@ li {
     font-size: 17px;
  }
  .chair{
-     background-color: #F5F6F8;
+    background-color: #F5F6F8;
  }
  .link_color{
-     color:#FB2E86;
+    color:#FB2E86;
  }
 .check_color{
     color: blue;
 }
  .discount_h1{
-     font-size: 35px;
-     color: #151875;
-     font-weight: bold;
+    font-size: 35px;
+    color: #151875;
+    font-weight: bold;
  }
  .discount_h2{
     font-size: 21px;
@@ -135,7 +149,7 @@ li {
     
  }
  .paragraph_check{
-     color: #B8B8DC;
+    color: #B8B8DC;
  }
 .back_image{
     background-color: #F6F7FB;
@@ -166,7 +180,7 @@ li {
     font-weight: bold;
 }
 .shopgrid_div{
-background-color: #F6F5FF;
+    background-color: #F6F5FF;
 }
 .shopgrid_text{
     color: #101750;
@@ -214,6 +228,12 @@ background-color: #F6F5FF;
     font-size: 13px;
     font-family: Josefin Sans;
 }
+.reduce{
+    font-family: Josefin Sans;
+    font-size: 12px;
+    text-align: center;
+    text-decoration-line: line-through;
+}
 .ecommerce_reduced{
     color: #FB2E86; 
     font-size: 13px;
@@ -245,17 +265,17 @@ background-color: #F6F5FF;
     color:#101750;
     font-size: 36px;
     font-family: Josefin Sans;
-   font-weight:bold;
+    font-weight:bold;
 }
 .order_paragraph{
     color:#8D92A7;
     font-size: 16px;
     font-family: Lato;
-   font-weight: 600;
-   max-width: 80ch;
+    font-weight: 600;
+    max-width: 80ch;
 }
 .about_paragraph{
-max-width: 65ch;
+    max-width: 65ch;
 }
 .about_div{
     background-color: #FBFBFF;
@@ -264,8 +284,8 @@ max-width: 65ch;
     color: #8A8FB9;
     font-size: 16px;
     font-family: Lato;
-   font-weight: 700;
-   max-width: 80ch;
+    font-weight: 700;
+    max-width: 80ch;
 }
 .client_name{
     font-size: 22px;
@@ -277,13 +297,16 @@ max-width: 65ch;
     color: #8A8FB9;
     font-size: 16px;
     font-family: Lato;
-   font-weight: 600;
-   max-width: 24ch;
+    font-weight: 600;
+    max-width: 24ch;
 }
 
 @media only screen and (max-width: 765px) {
-
-  
+    .lamp{
+       
+      display: none;
+    }
+   
   }
   
   @media only screen and (max-width: 414px) {
