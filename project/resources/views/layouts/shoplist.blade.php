@@ -46,7 +46,7 @@
       image="{{URL::to('/images/shoplist.png')}}" />
     </div>
 
-    <div class="lg:py-20">
+    <div class="lg:py-20 sm:py-12">
       <center><img src="{{ URL::to('/images/design.png') }}" width="903" height="93"></center>
     </div>
     
