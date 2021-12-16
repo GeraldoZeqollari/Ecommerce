@@ -13,15 +13,13 @@
 .search{
     border: 2px solid #E7E6EF;
 }
-.swiper{
-    width: 800px;
+.swiper_feature{
+    width: 900px;
     height: 400px;
 }
-.swiper_trends{
-    width: 1550px;
-    height: 764px;
-}
+
 .swiper_categories{
+    width: 900px;
     height:320px;
 }
 
@@ -314,6 +312,15 @@ li {
 @media only screen and (max-width: 765px) {
     .lamp{
       display: none;
+    }
+    .swiper_feature{
+        width: 400px;
+        height: 250px;
+    }
+    .swiper_categories{
+        width: 400px;
+        height: 250px;
+
     }
     
    

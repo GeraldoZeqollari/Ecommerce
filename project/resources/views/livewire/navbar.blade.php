@@ -2,7 +2,7 @@
 <div>
 
    <div class="navbar_color xl:flex xl:flex-wrap xl:items-center lg:flex lg:flex-wrap lg:justify-evenly  lg:p-3.5 md:flex 
-            md:flex-wrap md:items-center md:gap-12 md:py-4 sm:flex sm:flex-wrap sm:text-center sm:py-10 sm:gap-10">
+            md:flex-wrap md:items-center md:gap-12 md:py-4 sm:flex sm:flex-wrap sm:justify-center sm:py-10 sm:gap-10">
 
      <div class="flex flex-wrap gap-8">
         
@@ -47,13 +47,13 @@
    </div>
 
     <div class="flex flex-col items-center">
-        <div class="flex flex-wrap  lg:p-8 items-center lg:gap-20">
+        <div class="lg:flex lg:flex-row  lg:p-8 items-center lg:gap-20 sm:flex sm:flex-col sm:gap-9">
             <div class="">
                 <h1 class="hekto_text">HEKTO</h1>
             </div>
 
-         <div class="flex flex-wrap lg:gap-40">
-            <div class="lg:gap-10 flex flex-wrap items-center">
+         <div class="lg:flex lg:flex-row lg:gap-40 sm:flex sm:flex-col sm:gap-5 sm:pb-4">
+            <div class="lg:gap-10 lg:flex lg:flex-row lg:items-center sm:flex sm:flex-col sm:gap-5">
                 <div class="flex flex-wrap items-center lg:gap-3">
                     <a href="#">Home</a><svg width="8" height="4" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 0.5L5 4.5L9 0.5" stroke="#FB2E86" stroke-linecap="round" stroke-linejoin="round"/>

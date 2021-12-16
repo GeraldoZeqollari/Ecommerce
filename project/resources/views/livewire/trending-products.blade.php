@@ -1,12 +1,12 @@
 <div class="shadow">
     <div class="">
-      <div  class="border_color  lg:pl-4 lg:pr-4 lg:pt-4 lg:pb-6">
-        <div class="div_color lg:pt-4 lg:pr-5 lg:pl-5">
+      <div  class="border_color  pl-4 pr-4 pt-4 pb-6">
+        <div class="div_color pt-4 pr-5 pl-5">
             <img src="{{$image}}" width="171" height="171">
         </div>
-        <div class="flex flex-col items-center lg:pt-5 lg:pb-4">
+        <div class="flex flex-col items-center pt-5 pb-4">
             <p class="paragraph_color"> {{$text}}</p>
-                <div class="flex  lg:gap-4">
+                <div class="flex  gap-4">
                     <p class="ecommerce_price"> {{$reduced_price}}</p>
                     <p class="reduce">{{$price}}</p>
                 </div>

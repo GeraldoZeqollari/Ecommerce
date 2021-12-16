@@ -1,4 +1,4 @@
-<div class="flex  flex-wrap justify-center lg:pt-28 lg:pb-40 lg:gap-40 ">
+<div class="lg:flex  lg:flex-wrap sm:flex sm:flex-col justify-center lg:pt-28 lg:pb-40 lg:gap-40 ">
     <div class="flex gap-12">
         <div class="flex flex-col" >
             <h1 class="ecommerce">{{$title}}</h1>
