@@ -54,7 +54,7 @@
             <div>
               <img src="{{ URL::to('/images/lamp.png') }}" class="lamp" width="387" height="387">
             
-              <div class=" lamp lg:pt-32 lg:pl-20">
+              <div class="lamp lg:pt-24 lg:pl-20">
                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="7.5" cy="7.5" r="7.5" fill="#FB2E86"/>
                </svg>
@@ -65,16 +65,18 @@
             <div class="lg:pt-40 md:pt-16">
               <p class="furniture_color">Best Furniture For Your Castle...</p>
               <h1 class="lg:text-5xl md:text-xl  pt-3">New Furniture Collection Trends in 2020</h1>
-              <p class="describe_color lg:pt-3 lg:pb-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis pariatur dolorum, velit saepe aliquid perferendis. 
+              <p class="describe_color lg:pt-3 lg:pb-8">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis pariatur dolorum, velit saepe aliquid perferendis. 
                 Eveniet, velit eos!
                </p>
-               <button class="shop_button lg:h-10 lg:w-32">Shop Now</button>
+               <button class="shop_button h-10 w-32">Shop Now</button>
             </div> 
       
-            <div class="couch pt-24 flex">
-              <img src="{{ URL::to('/images/couch.png') }}" class="couch" width="629" height="629"> 
-            </div> 
-
+            <div class="flex flex-col items-end">
+                  <img src="{{ URL::to('/images/off.png') }}"  width="130" height="130"> 
+              <div class="couch flex">
+                <img src="{{ URL::to('/images/couch.png') }}" class="couch" width="629" height="629"> 
+              </div> 
+            </div>
 
           </div>
 
@@ -99,9 +101,12 @@
                <button class="shop_button lg:h-10 lg:w-32">Shop Now</button>
             </div> 
       
-            <div class="couch pt-24 flex">
-              <img src="{{ URL::to('/images/couch.png') }}" class="couch" width="629" height="629"> 
-            </div> 
+            <div class="flex flex-col items-end">
+              <img src="{{ URL::to('/images/off.png') }}"  width="130" height="130"> 
+                <div class="couch flex">
+                  <img src="{{ URL::to('/images/couch.png') }}" class="couch" width="629" height="629"> 
+                </div> 
+            </div>
           </div>
 
           <div class="swiper-slide flex">
@@ -126,8 +131,11 @@
               <button class="shop_button lg:h-10 lg:w-32">Shop Now</button>
             </div> 
     
-            <div class="couch pt-24 flex">
-             <img src="{{ URL::to('/images/couch.png') }}" class="couch" width="629" height="629"> 
+            <div class="flex flex-col items-end">
+              <img src="{{ URL::to('/images/off.png') }}"  width="130" height="130"> 
+                <div class="couch flex">
+                  <img src="{{ URL::to('/images/couch.png') }}" class="couch" width="629" height="629"> 
+                </div> 
             </div> 
           </div>
           
