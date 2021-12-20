@@ -10,6 +10,10 @@
     font-size: 34px;
     font-weight: bold;
 }
+.error-input {
+    border: 2px solid red !important;
+}
+
 .search{
     border: 2px solid #E7E6EF;
 }

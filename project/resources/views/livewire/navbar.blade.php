@@ -31,10 +31,17 @@
             <option value="usd">USD</option>
             <option value="euro">EURO</option>
         </select>
-
         <div class="flex items-center gap-3 text-white">
-                <p>Login</p>
+        <form action="{{ route('logout') }}" method="POST">
+            @csrf
+            @guest <a href="{{ route('login') }}">Login</a>
                 <i class="far fa-user"></i>
+                <a href="{{ route('register') }}">Register</a> @endguest
+                @auth
+                <a href="{{ route('logout') }}">Logout</a>
+                <i class="far fa-user"></i>
+                @endauth
+        </form>
         </div>
         <div class="flex items-center gap-3 text-white">
                 <p>Wishlist</p>

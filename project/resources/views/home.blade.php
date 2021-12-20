@@ -72,9 +72,9 @@
             </div> 
       
             <div class="flex flex-col items-end">
-                  <img src="{{ URL::to('/images/off.png') }}"  width="130" height="130"> 
-              <div class="couch flex">
-                <img src="{{ URL::to('/images/couch.png') }}" class="couch" width="629" height="629"> 
+                  
+              <div class="flex lg:pt-16 md:pt-12 sm:pt-7 lg:pb-8 md:pb-6 sm:pb-4">
+                <img src="{{ URL::to('/images/couch.png') }}"  width="629" height="629"> 
               </div> 
             </div>
 
@@ -102,9 +102,9 @@
             </div> 
       
             <div class="flex flex-col items-end">
-              <img src="{{ URL::to('/images/off.png') }}"  width="130" height="130"> 
-                <div class="couch flex">
-                  <img src="{{ URL::to('/images/couch.png') }}" class="couch" width="629" height="629"> 
+              
+                <div class="flex lg:pt-16 md:pt-12 sm:pt-7 lg:pb-8 md:pb-6 sm:pb-4">
+                  <img src="{{ URL::to('/images/couch.png') }}" class="" width="629" height="629"> 
                 </div> 
             </div>
           </div>
@@ -132,9 +132,9 @@
             </div> 
     
             <div class="flex flex-col items-end">
-              <img src="{{ URL::to('/images/off.png') }}"  width="130" height="130"> 
-                <div class="couch flex">
-                  <img src="{{ URL::to('/images/couch.png') }}" class="couch" width="629" height="629"> 
+         
+                <div class="flex lg:pt-16 md:pt-12 sm:pt-7 lg:pb-8 md:pb-6 sm:pb-4">
+                  <img src="{{ URL::to('/images/couch.png') }}"  width="629" height="629"> 
                 </div> 
             </div> 
           </div>
