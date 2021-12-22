@@ -17,29 +17,8 @@
     <livewire:ecommerce title="Ecommerce Accessories & Fashion item" results="About 9620 results(0.62 seconds)" 
     per_page="Per_page" sort="Sort By" view="View"/>
 
-    <div class="flex flex-col items-center pt-3">
-
-      <div class="lg:flex  sm:grid sm:grid-cols-2 lg:gap-12 sm:gap-6 ecom_accessories">
-        <livewire:ecommerce-items image="{{URL::to('/images/lightgray.png')}}" title="Vel elit euismod" price="$26.00" reduced_price="$42.00"/>
-        <livewire:ecommerce-items image="{{URL::to('/images/lightgray.png')}}" title="Vel elit euismod" price="$26.00" reduced_price="$42.00"/>
-        <livewire:ecommerce-items image="{{URL::to('/images/lightgray.png')}}" title="Vel elit euismod" price="$26.00" reduced_price="$42.00"/>
-        <livewire:ecommerce-items image="{{URL::to('/images/lightgray.png')}}" title="Vel elit euismod" price="$26.00" reduced_price="$42.00"/>
-      </div>
-
-      <div class="lg:flex sm:grid sm:grid-cols-2 lg:gap-12 sm:gap-6 lg:pt-20 ecom_accessories">
-        <livewire:ecommerce-items image="{{URL::to('/images/lightgray.png')}}" title="Vel elit euismod" price="$26.00" reduced_price="$42.00"/>
-        <livewire:ecommerce-items image="{{URL::to('/images/lightgray.png')}}" title="Vel elit euismod" price="$26.00" reduced_price="$42.00"/>
-        <livewire:ecommerce-items image="{{URL::to('/images/lightgray.png')}}" title="Vel elit euismod" price="$26.00" reduced_price="$42.00"/>
-        <livewire:ecommerce-items image="{{URL::to('/images/lightgray.png')}}" title="Vel elit euismod" price="$26.00" reduced_price="$42.00"/>
-      </div>
-
-      <div class="lg:flex  sm:grid sm:grid-cols-2 lg:gap-12 sm:gap-6 lg:pt-20 ecom_accessories">
-        <livewire:ecommerce-items image="{{URL::to('/images/lightgray.png')}}" title="Vel elit euismod" price="$26.00" reduced_price="$42.00"/>
-        <livewire:ecommerce-items image="{{URL::to('/images/lightgray.png')}}" title="Vel elit euismod" price="$26.00" reduced_price="$42.00"/>
-        <livewire:ecommerce-items image="{{URL::to('/images/lightgray.png')}}" title="Vel elit euismod" price="$26.00" reduced_price="$42.00"/>
-        <livewire:ecommerce-items image="{{URL::to('/images/lightgray.png')}}" title="Vel elit euismod" price="$26.00" reduced_price="$42.00"/>
-      </div>
-
+    <div class="flex justify-center pt-3">
+       <livewire:ecommerce-items />
     </div>
 
     <div class="lg:py-20 sm:py-12">

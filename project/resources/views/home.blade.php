@@ -181,24 +181,20 @@
 
     <div class="grid items-center lg:pt-32 md:pt:24 sm:pt-12">
       <livewire:product-title title_text="Latest Products"/>
-      <div class="links flex lg:gap-10 sm:gap-5 lg:pt-8 sm:pt-6 items-center lg:pl-8">
-        <u><a href="#" class="link_color">New Arrival</a></u>
-        <a href="#">Best Seller</a>
-        <a href="#">Featured</a>
-        <a href="#">Special Offer</a>
-      </div>
+        <div class="links flex lg:gap-10 sm:gap-5 lg:pt-8 sm:pt-6 items-center lg:pl-8">
+          <u><a href="#" class="link_color">New Arrival</a></u>
+          <a href="#">Best Seller</a>
+          <a href="#">Featured</a>
+          <a href="#">Special Offer</a>
+        </div>
     </div>
 
     <div class="lg:pt-1 sm:pt-4" >
-      <div class="lg:flex lg:gap-11 sm:gap-5">
-        <livewire:latest-products title="Comfort Handy Craft" reduced_price="$42.00" price="$65.00"/>
-        <livewire:latest-products title="Comfort Handy Craft" reduced_price="$42.00" price="$65.00"/>
-        <livewire:latest-products title="Comfort Handy Craft" reduced_price="$42.00" price="$65.00"/>
-      </div>
-      <div class="lg:flex lg:gap-11 sm:gap-5 lg:pt-11">
-        <livewire:latest-products title="Comfort Handy Craft" reduced_price="$42.00" price="$65.00"/>
-        <livewire:latest-products title="Comfort Handy Craft" reduced_price="$42.00" price="$65.00"/>
-        <livewire:latest-products title="Comfort Handy Craft" reduced_price="$42.00" price="$65.00"/>
+      <div class="lg:grid lg:grid-cols-3 lg:gap-11 sm:gap-5">
+        @foreach ($images as $image)
+          <livewire:latest-products image="{{$image->path_name}}" title="{{$image->title}}"  price="{{$image->price}}" reduced_price="{{$image->reduced_price}}"/>
+        @endforeach
+      
       </div>
     </div>
 
@@ -225,13 +221,13 @@
         <div class="lg:pt-24 sm:pt-12">
 
           <h1 class="h1_position text-3xl">Unique Features Of leatest & Trending Poducts</h1>
-          <div class=" lg:pt-11 sm:pt-6">
-            <ul class="description_color">
-              <li>All frames constructed with hardwood solids and laminates</li>
-              <li>Reinforced with double wood dowels, glue, screw - nails corner blocks and machine nails</li>
-              <li>Arms, backs and seats are structurally reinforced</li>
-            </ul>
-          </div>
+            <div class=" lg:pt-11 sm:pt-6">
+              <ul class="description_color">
+                <li>All frames constructed with hardwood solids and laminates</li>
+                <li>Reinforced with double wood dowels, glue, screw - nails corner blocks and machine nails</li>
+                <li>Arms, backs and seats are structurally reinforced</li>
+              </ul>
+            </div>
 
           <div class="lg:pt-9 sm:pt-5 flex items-center gap-4">
             <button class="shop_button lg:h-10 sm:h-7 lg:w-32 sm:w-28">Add To Cart</button>
@@ -303,7 +299,7 @@
      </div>
      
      <div class="brown_couch">
-      <img src="{{URL::to('/images/brchair.png')}}" width="690" height="600">
+        <img src="{{URL::to('/images/brchair.png')}}" width="690" height="600">
      </div>
      
     </div>
@@ -341,7 +337,6 @@
    
       <div class="swiper-pagination"></div>
 
-
     </div>
 
     <div class="lg:pt-24 sm:pt-16">
@@ -359,7 +354,7 @@
   </div>
    
    <div class="lg:pt-24 sm:pt-12 text-center">
-    <center><img src="{{ URL::to('/images/design.png') }}" width="903" height="93"></center>
+      <center><img src="{{ URL::to('/images/design.png') }}" width="903" height="93"></center>
    </div>
 
   <div class="flex flex-col items-center ">

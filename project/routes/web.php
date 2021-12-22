@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\UploadController;
 use App\Http\Controllers\Auth\LogInController;
 use App\Http\Controllers\Auth\LogOutController;
 use App\Http\Controllers\Auth\RegisterController;
@@ -24,17 +25,18 @@ Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/login', [LogInController::class, 'index'])->name('login');
 Route::post('/login', [LogInController::class, 'store']);
 
-
-
 Route::get('/register', [RegisterController::class, 'index'])->name('register');
 Route::post('/register', [RegisterController::class, 'store']);
 
+Route::get('/upload', [UploadController::class, 'index'])->name('upload');
+Route::post('/upload', [UploadController::class, 'store']);
 
 Route::get('/logout', [LogOutController::class, 'store'])->name('logout');
 
 Route::get('/shopgrid', function () {
     return view('layouts.shopgrid');
 });
+
 Route::get('/shoplist', function () {
     return view('layouts.shoplist');
 });

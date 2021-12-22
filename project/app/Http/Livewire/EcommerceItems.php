@@ -2,26 +2,31 @@
 
 namespace App\Http\Livewire;
 
+use App\Models\Image;
 use Livewire\Component;
 
 class EcommerceItems extends Component
 {
 
-    public $image;
-    public $price;
-    public $title;
-    public $reduced_price;
+    // public $image;
+    // public $price;
+    // public $title;
+    // public $reduced_price;
+    public $images;
 
-    public function mount($image, $price, $reduced_price, $title)
+    public function mount()
     {
-        $this->image = $image;
-        $this->price = $price;
-        $this->reduced_price = $reduced_price;
-        $this->title = $title;
+        // $this->image = $image;
+        // $this->price = $price;
+        // $this->reduced_price = $reduced_price;
+        // $this->title = $title;
+        $this->images = Image::get()->pagination(2);
     }
 
     public function render()
     {
-        return view('livewire.ecommerce-items');
+        return view('livewire.ecommerce-items',[
+            $this->images
+        ]);
     }
 }

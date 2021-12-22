@@ -38,8 +38,12 @@
                 <i class="far fa-user"></i>
                 <a href="{{ route('register') }}">Register</a> @endguest
                 @auth
-                <a href="{{ route('logout') }}">Logout</a>
+                <div class="flex gap-2 items-center">
+                <p>{{auth()->user()->name}}</p>
                 <i class="far fa-user"></i>
+
+                <a href="{{ route('logout') }}">Logout</a>
+                </div>
                 @endauth
         </form>
         </div>
