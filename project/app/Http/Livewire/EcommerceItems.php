@@ -4,6 +4,7 @@ namespace App\Http\Livewire;
 
 use App\Models\Image;
 use Livewire\Component;
+use Livewire\WithPagination;
 
 class EcommerceItems extends Component
 {
@@ -12,7 +13,7 @@ class EcommerceItems extends Component
     // public $price;
     // public $title;
     // public $reduced_price;
-    public $images;
+    use WithPagination;
 
     public function mount()
     {
@@ -20,13 +21,13 @@ class EcommerceItems extends Component
         // $this->price = $price;
         // $this->reduced_price = $reduced_price;
         // $this->title = $title;
-        $this->images = Image::get()->pagination(2);
+        // $this->images = Image::paginate(2);
     }
 
     public function render()
     {
-        return view('livewire.ecommerce-items',[
-            $this->images
+        return view('livewire.ecommerce-items', [
+            'images'=>Image::paginate(2)
         ]);
     }
 }

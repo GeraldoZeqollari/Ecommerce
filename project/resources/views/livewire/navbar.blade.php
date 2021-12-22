@@ -34,17 +34,19 @@
         <div class="flex items-center gap-3 text-white">
         <form action="{{ route('logout') }}" method="POST">
             @csrf
-            @guest <a href="{{ route('login') }}">Login</a>
+            @guest 
+                <a href="{{ route('login') }}">Login</a>
                 <i class="far fa-user"></i>
-                <a href="{{ route('register') }}">Register</a> @endguest
-                @auth
+                <a href="{{ route('register') }}">Register</a> 
+            @endguest
+            @auth
                 <div class="flex gap-2 items-center">
                 <p>{{auth()->user()->name}}</p>
                 <i class="far fa-user"></i>
 
                 <a href="{{ route('logout') }}">Logout</a>
                 </div>
-                @endauth
+            @endauth
         </form>
         </div>
         <div class="flex items-center gap-3 text-white">
@@ -66,7 +68,7 @@
          <div class="lg:flex lg:flex-row lg:gap-40 sm:flex sm:flex-col sm:gap-5 sm:pb-4">
             <div class="lg:gap-10 lg:flex lg:flex-row lg:items-center sm:flex sm:flex-col sm:gap-5">
                 <div class="flex flex-wrap items-center lg:gap-3">
-                    <a href="#">Home</a><svg width="8" height="4" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <a href="{{route('home')}}">Home</a><svg width="8" height="4" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 0.5L5 4.5L9 0.5" stroke="#FB2E86" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                 </div>
@@ -77,10 +79,12 @@
                 <a href="#">Contact</a>
             </div>   
 
-            <div>
-                <input type="text" class="search box-border max-w-xs outline-none"/>
-                <button class="button"><i class="fas fa-search"></i></button>
-            </div> 
+                <form action="{{ route('search') }}" method="GET">
+                     <div class="flex justify-center">
+                        <input type="text" name="search" class="search box-border max-w-xs outline-none"/>
+                        <button class="button" type="submit" ><i class="fas fa-search"></i></button>
+                    </div> 
+                </form>
          </div> 
 
         </div>

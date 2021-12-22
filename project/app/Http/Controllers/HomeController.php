@@ -9,7 +9,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $images = Image::get();
+        $images = Image::paginate(2);
         return view('home')->with(compact('images'));
     }
 }

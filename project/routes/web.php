@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\SearchController;
 use App\Http\Controllers\UploadController;
 use App\Http\Controllers\Auth\LogInController;
 use App\Http\Controllers\Auth\LogOutController;
@@ -32,6 +33,9 @@ Route::get('/upload', [UploadController::class, 'index'])->name('upload');
 Route::post('/upload', [UploadController::class, 'store']);
 
 Route::get('/logout', [LogOutController::class, 'store'])->name('logout');
+
+Route::get('/search', [SearchController::class, 'search'])->name('search');
+
 
 Route::get('/shopgrid', function () {
     return view('layouts.shopgrid');

@@ -84,7 +84,7 @@
             <div>
               <img src="{{ URL::to('/images/lamp.png') }}" class="lamp" width="387" height="387">
             
-              <div class=" lamp lg:pt-32 lg:pl-20">
+              <div class=" lamp lg:pt-24 lg:pl-20">
                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="7.5" cy="7.5" r="7.5" fill="#FB2E86"/>
                </svg>
@@ -114,7 +114,7 @@
             <div>
              <img src="{{ URL::to('/images/lamp.png') }}" class="lamp" width="387" height="387">
           
-             <div class=" lamp lg:pt-32 lg:pl-20">
+             <div class=" lamp lg:pt-24 lg:pl-20">
                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                <circle cx="7.5" cy="7.5" r="7.5" fill="#FB2E86"/>
                </svg>
@@ -190,12 +190,14 @@
     </div>
 
     <div class="lg:pt-1 sm:pt-4" >
-      <div class="lg:grid lg:grid-cols-3 lg:gap-11 sm:gap-5">
+      <div class="lg:grid lg:grid-cols-3 lg:gap-11 sm:gap-5 lg:pb-6 md:pb-4 sm:pb-2">
         @foreach ($images as $image)
           <livewire:latest-products image="{{$image->path_name}}" title="{{$image->title}}"  price="{{$image->price}}" reduced_price="{{$image->reduced_price}}"/>
+          
         @endforeach
-      
       </div>
+      {{$images->links()}}
+
     </div>
 
     <div class="lg:pt-32 sm:pt-12 lg:pb-12 sm:pb-6">
