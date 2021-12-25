@@ -21,7 +21,7 @@ class EcommerceItems extends Component
         // $this->price = $price;
         // $this->reduced_price = $reduced_price;
         // $this->title = $title;
-        // $this->images = Image::paginate(2);
+        
     }
 
     public function render()

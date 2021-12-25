@@ -1,10 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BlogController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SearchController;
 use App\Http\Controllers\UploadController;
+use App\Http\Controllers\CommentController;
 use App\Http\Controllers\Auth\LogInController;
+use App\Http\Controllers\CreateBlogController;
 use App\Http\Controllers\Auth\LogOutController;
 use App\Http\Controllers\Auth\RegisterController;
 
@@ -21,7 +24,7 @@ use App\Http\Controllers\Auth\RegisterController;
 
 
 
-Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::get('/login', [LogInController::class, 'index'])->name('login');
 Route::post('/login', [LogInController::class, 'store']);
@@ -32,9 +35,17 @@ Route::post('/register', [RegisterController::class, 'store']);
 Route::get('/upload', [UploadController::class, 'index'])->name('upload');
 Route::post('/upload', [UploadController::class, 'store']);
 
+Route::get('/createblog', [CreateBlogController::class, 'index'])->name('createblog');
+Route::post('/createblog', [CreateBlogController::class, 'store']);
+
 Route::get('/logout', [LogOutController::class, 'store'])->name('logout');
 
 Route::get('/search', [SearchController::class, 'search'])->name('search');
+
+Route::get('/blog', [BlogController::class, 'index'])->name('blog');
+// Route::post('/blog', [BlogController::class, 'store']);
+
+Route::post('/blog', [CommentController::class, 'store'])->name('comment');
 
 
 Route::get('/shopgrid', function () {

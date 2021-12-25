@@ -85,9 +85,12 @@
 .div:hover + .icons {
     color: #2F1AC4;
     display: flex;
-    
 }
 
+.link{
+    background-color: #FB2E86;
+    color: white;
+}
 .border_color{
     border:1px solid whitesmoke;
 }

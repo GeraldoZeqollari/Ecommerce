@@ -8,7 +8,12 @@
         
          <div class="flex items-center text-white gap-3 text-base font-sans" >
             <i class="far fa-envelope"></i>
-            <p >mhhasanul@gmail.com</p>
+            @guest
+            <p>mhhasanul@gmail.com</p>
+            @endguest
+            @auth
+            <p>{{auth()->user()->email}}</p>
+            @endauth
          </div>   
 
         <div class="flex flex-wrap items-center text-white text-base font-sans">
@@ -74,7 +79,7 @@
                 </div>
                 <a href="#">Pages</a>
                 <a href="#">Products</a>
-                <a href="#">Blog</a>
+                <a href="{{route('blog')}}">Blog</a>
                 <a href="#">Shop</a>
                 <a href="#">Contact</a>
             </div>   
