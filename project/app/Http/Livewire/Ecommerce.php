@@ -21,6 +21,7 @@ class Ecommerce extends Component
         $this->per_page = $per_page;
         $this->sort = $sort;
     }
+    
     public function render()
     {
         return view('livewire.ecommerce');

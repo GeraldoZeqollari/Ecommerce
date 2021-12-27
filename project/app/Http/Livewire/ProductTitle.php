@@ -13,6 +13,7 @@ class ProductTitle extends Component
     {
         $this->title_text = $title_text;
     }
+    
     public function render()
     {
         return view('livewire.product-title');

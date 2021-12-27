@@ -6,5 +6,4 @@
         <p>{{$text}}
         <p>{{$price}}</p>
     </div>
-    
 </div>

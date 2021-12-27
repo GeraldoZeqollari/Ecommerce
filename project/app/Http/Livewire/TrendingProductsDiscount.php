@@ -18,6 +18,7 @@ class TrendingProductsDiscount extends Component
         $this->image = $image;
         $this->title = $title;
     }
+    
     public function render()
     {
         return view('livewire.trending-products-discount');

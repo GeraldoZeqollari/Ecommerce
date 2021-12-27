@@ -17,6 +17,7 @@ class TrendingProductsChair extends Component
         $this->image = $image;
         $this->price = $price;
     }
+    
     public function render()
     {
         return view('livewire.trending-products-chair');

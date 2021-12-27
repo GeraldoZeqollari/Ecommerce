@@ -17,13 +17,9 @@
     <livewire:ecommerce title="Ecommerce Accessories & Fashion item" results="About 9620 results(0.62 seconds)" 
     per_page="Per_page" sort="Sort By" view="View"/>
 
-    <div class="flex justify-center pt-3">
-       <livewire:ecommerce-items />
-    </div>
+    <div class="flex justify-center pt-3"> <livewire:ecommerce-items /> </div>
 
-    <div class="lg:py-20 sm:py-12">
-       <center><img src="{{ URL::to('/images/design.png') }}" width="903" height="93"></center>
-    </div>
+    <div class="lg:py-20 sm:py-12"> <center><img src="{{ URL::to('/images/design.png') }}" width="903" height="93"></center> </div>
 
     @livewire('footer')
     @livewireScripts

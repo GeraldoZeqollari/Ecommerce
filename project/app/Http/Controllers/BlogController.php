@@ -11,12 +11,8 @@ class BlogController extends Controller
     public function index()
     {
         $blogs = Blog::paginate(1);
-
-        
-
         $comments = Comment::get();
         
-
         return view('layouts.blog')->with(compact('blogs', 'comments'));
     }
 

@@ -17,6 +17,7 @@ class TopCategories extends Component
         $this->text = $text;
         $this->price = $price;
     }
+    
     public function render()
     {
         return view('livewire.top-categories');

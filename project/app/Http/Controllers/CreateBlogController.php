@@ -18,7 +18,6 @@ class CreateBlogController extends Controller
         // $this->validate($request, [
         //     'title' => 'required',
         //    'description' => 'required',
-
         // ]);
 
         Blog::create([

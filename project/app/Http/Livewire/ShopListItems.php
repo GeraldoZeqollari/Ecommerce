@@ -23,6 +23,7 @@ class ShopListItems extends Component
         $this->reduced_price = $reduced_price;
       
     }
+    
     public function render()
     {
         return view('livewire.shop-list-items');

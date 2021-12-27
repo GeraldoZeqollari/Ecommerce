@@ -6,24 +6,22 @@ lg:pb-40 lg:gap-28 md:gap-20 sm:gap-8 lg:ml-12 md:ml-8 sm:ml-6 ">
             <p class="results">{{$results}}</p>
         </div>
 
-     <div class="flex items-center pb-3">
+        <div class="flex items-center pb-3">
         
-        <div class="flex items-center lg:w-1/4" >
-            <p class="filter">{{$per_page}}</p><input type="text" class="input" style="width: 30%"/>
-        </div>
+            <div class="flex items-center lg:w-1/4" >
+                <p class="filter">{{$per_page}}</p><input type="text" class="input" style="width: 30%"/>
+            </div>
 
-        <div class="flex items-center">
-            <p class="filter">{{$sort}}</p>
+            <div class="flex items-center">
+                <p class="filter">{{$sort}}</p>
                 <select class="text-xs input">
                     <option >Best Match</option>
                 </select>
-        </div>
+            </div>
 
-        <div class="flex items-center ">
-            <p class="filter">{{$view}}</p>
-            <input type="text" class="input" style="width: 60%"/>
+            <div class="flex items-center ">
+                <p class="filter">{{$view}}</p>
+                <input type="text" class="input" style="width: 60%"/>
+            </div>
         </div>
-     </div>
-     
-    
 </div>

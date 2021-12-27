@@ -15,6 +15,7 @@ class ShopGrid extends Component
         $this->title = $title;
         $this->text = $text;
     }
+    
     public function render()
     {
         return view('livewire.shop-grid');

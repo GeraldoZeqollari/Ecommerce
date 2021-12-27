@@ -23,7 +23,6 @@ use App\Http\Controllers\Auth\RegisterController;
 */
 
 
-
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::get('/login', [LogInController::class, 'index'])->name('login');
@@ -43,7 +42,6 @@ Route::get('/logout', [LogOutController::class, 'store'])->name('logout');
 Route::get('/search', [SearchController::class, 'search'])->name('search');
 
 Route::get('/blog', [BlogController::class, 'index'])->name('blog');
-// Route::post('/blog', [BlogController::class, 'store']);
 
 Route::post('/blog', [CommentController::class, 'store'])->name('comment');
 

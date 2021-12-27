@@ -21,6 +21,7 @@ class LeatestBlog extends Component
         $this->title = $title;
         $this->description = $description;
     }
+    
     public function render()
     {
         return view('livewire.leatest-blog');

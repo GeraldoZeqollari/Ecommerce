@@ -15,8 +15,8 @@ class OrderCompleted extends Component
     {
         $this->image = $image;
         $this->title = $title;
-       
     }
+
     public function render()
     {
         return view('livewire.order-completed');

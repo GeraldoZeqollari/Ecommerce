@@ -18,6 +18,7 @@ class LatestProducts extends Component
         $this->reduced_price = $reduced_price;
         $this->image = $image;
     }
+    
     public function render()
     {
         return view('livewire.latest-products');

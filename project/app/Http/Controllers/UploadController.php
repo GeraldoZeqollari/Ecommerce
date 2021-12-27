@@ -17,10 +17,8 @@ class UploadController extends Controller
 
         // $this->validate($request, [
         //     'title' => 'required',
-        //     'stock' => 'required',
         //     'price' => 'required',
         //     'reduced_price' => 'required',
-
         // ]);
 
         Image::create([
@@ -30,11 +28,10 @@ class UploadController extends Controller
             'price' => $request->price,
             'reduced_price' => $request->reduced_price,
             // 'category_id' => $request->category_id,
-            // 'stock' => $request->stock,
-
 
         ]);
         $request->file->store('images', 'public');
+
         return back();
     }
 }
