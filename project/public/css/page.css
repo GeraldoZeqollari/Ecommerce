@@ -86,6 +86,10 @@
     color: #2F1AC4;
     display: flex;
 }
+.div_border:hover{
+    border-left: 3px solid purple;
+    border-bottom: 3px solid purple;
+}
 
 .link{
     background-color: #FB2E86;
