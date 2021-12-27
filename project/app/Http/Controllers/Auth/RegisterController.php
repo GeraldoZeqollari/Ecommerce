@@ -22,9 +22,7 @@ class RegisterController extends Controller
 
     public function store(Request $request)
     {
-
         $this->validate($request, [
-
             'name' => 'required|max:255',
             'email' => 'required|email|max:255|unique:users,email',
             'password' => [
@@ -36,10 +34,7 @@ class RegisterController extends Controller
                 // 'regex:/[0-9]/',
                 // 'confirmed'
             ],
-
-
         ]);
-
 
         User::create([
 
@@ -48,7 +43,6 @@ class RegisterController extends Controller
             'password' => Hash::make($request->password),
 
         ]);
-
 
         auth()->attempt($request->only('email', 'password'));
 

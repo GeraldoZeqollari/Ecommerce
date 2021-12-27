@@ -45,7 +45,7 @@
                      <textarea class="input lg:h-40  sm:w-full" name="comment">Type your comment</textarea>
                 </div>
 
-                <button class="shop_button lg:w-32 lg:h-11" type="submit" >Post</button>
+               @auth <button class="shop_button lg:w-32 lg:h-11" type="submit" >Post</button>@endauth
                 
                 <input type="number" class="icons" name="id" value="{{$blog->id}}"/>
             
