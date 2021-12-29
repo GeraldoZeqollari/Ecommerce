@@ -1,7 +1,9 @@
 <?php
 
+
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\ShopgridController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SearchController;
 use App\Http\Controllers\UploadController;
@@ -10,6 +12,7 @@ use App\Http\Controllers\Auth\LogInController;
 use App\Http\Controllers\CreateBlogController;
 use App\Http\Controllers\Auth\LogOutController;
 use App\Http\Controllers\Auth\RegisterController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -45,23 +48,12 @@ Route::get('/blog', [BlogController::class, 'index'])->name('blog');
 
 Route::post('/blog', [CommentController::class, 'store'])->name('comment');
 
+Route::get('/shopgrid', [ShopgridController::class, 'index'])->name('shopgrid');
 
-Route::get('/shopgrid', function () {
-    return view('layouts.shopgrid');
-});
+Route::get('/shoplist', [ShopgridController::class, 'shoplist'])->name('shoplist');
 
-Route::get('/shoplist', function () {
-    return view('layouts.shoplist');
-});
+Route::get('/order', [ShopgridController::class, 'order'])->name('order');
 
-Route::get('/order', function () {
-    return view('layouts.order');
-});
+Route::get('/about', [ShopgridController::class, 'about'])->name('about');
 
-Route::get('/about', function () {
-    return view('layouts.about');
-});
-
-Route::get('/contact', function () {
-    return view('layouts.contact');
-});
+Route::get('/contact', [ShopgridController::class, 'contact'])->name('contact');

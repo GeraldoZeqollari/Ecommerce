@@ -1,3 +1,7 @@
+<head>
+
+</head>
+<body>
 <div class="flex border_color items-center gap-7 pt-4 shadow-lg">
   <div>
     <img src="{{ $image }}" width="313" height="217">
@@ -20,3 +24,4 @@
   </div>
 
 </div>
+</body>

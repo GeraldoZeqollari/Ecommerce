@@ -22,7 +22,7 @@
                     </div>
                     <div class="flex items-baseline justify-between">
                         <input type="submit" value="Log in" class="px-6 py-2 mt-4 text-white bg-blue-600 rounded-lg hover:bg-blue-900"/>
-                        {{-- <a href="#" class="text-sm text-blue-600 hover:underline">Forgot password?</a> --}}
+                        <a href="{{route('register')}}" class="text-blue-600 hover:underline">Join Us</a>
                     </div>
                 </div>
             </form>

@@ -16,7 +16,5 @@ class BlogController extends Controller
         return view('layouts.blog')->with(compact('blogs', 'comments'));
     }
 
-    // public function store(Request $request)
-    // {
-    // }
+    
 }

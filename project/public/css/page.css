@@ -2,14 +2,17 @@
     margin: 0;
     padding: 0;
   }
+
 .navbar_color{
     background-color: #7E33E0;
 }
+
 .hekto_text{
     font-family: Josefin Sans;
     font-size: 34px;
     font-weight: bold;
 }
+
 .error-input {
     border: 2px solid red !important;
 }
@@ -17,6 +20,7 @@
 .search{
     border: 2px solid #E7E6EF;
 }
+
 .swiper_feature{
     width: 900px;
     height: 400px;
@@ -34,27 +38,33 @@
     height: 28px;
     margin-left: -5px;
 }
+
 .footer{
     background-color: #EEEFFB;
 }
+
 .list_element{
     font-family: LATO;
     color: #8A8FB9;
 }
+
 .footer_media{
     background-color: #E7E4F8;
 }
 .paragraph_color{
     color: #9DA0AE;
 }
+
 .text_color{
     font-weight: bold;
 }
+
 .signUp_button{
     background-color: #FB2E86;
     color: white;
     margin-left: -4px;
 }
+
 .color{
     background-color: #F2F0FF;
 }
@@ -66,26 +76,33 @@
 .describe_color{
     color:#8A8FB9;
 }
+
 .shop_button{
     background-color: #FB2E86;
     color: white;
 }
+
 .title_color{
     color:#1A0B5B;
 }
+
 .image_color{
     background-color: #F6F7FB;
 }
+
 .links{
     margin:auto;
 }
+
 .icons{
    display: none;
 }
+
 .div:hover + .icons {
     color: #2F1AC4;
     display: flex;
 }
+
 .div_border:hover{
     border-left: 3px solid purple;
     border-bottom: 3px solid purple;
@@ -95,184 +112,224 @@
     background-color: #FB2E86;
     color: white;
 }
+
 .border_color{
     border:1px solid whitesmoke;
 }
+
 .latest_div:hover p {
     color: white;
 }
+
 .paragraph_color{
     font-family: LATO;
     color: #151875;
 }
+
 .price_color{
     font-family: LATO;  
     color:#FB2448;
     text-decoration-line: line-through;
 }
+
 .text_length{
     font-family: LATO; 
     max-width: 32ch;
     color: #1A0B5B;
 }
+
 .div_color{
     background-color: #F1F0FF;
 }
+
 .h1_position{
     max-width: 30ch;
     color: #151875;
     font-weight: bold;
     font-family: Josefin Sans;
 }
-li {
+
+li{
     font-size: 14px;
     list-style-type: circle;
- }
- .description_color{
+}
+
+.description_color{
     color: #ACABC3;
- }
- .discount_color{
+}
+
+.discount_color{
     background-color: #FFF6FB;
- }
- .discount_title{
+}
+
+.discount_title{
     color: #151875;
     font-size: 26px;
     font-weight: bold;
- }
- .discount_text{
+}
+
+.discount_text{
     font-family: Lato;
     color: #FB2E86;
     font-weight: bold;
-     
- }
- .discount_paragraph{
+}
+
+.discount_paragraph{
     max-width: 50ch;
     color: #B7BACB;
     font-size: 17px;
- }
- .chair{
+}
+.chair{
     background-color: #F5F6F8;
- }
- .link_color{
+}
+
+.link_color{
     color:#FB2E86;
- }
+}
+
 .check_color{
     color: blue;
 }
- .discount_h1{
+
+.discount_h1{
     font-size: 35px;
     color: #151875;
     font-weight: bold;
- }
- .discount_h2{
+}
+
+.discount_h2{
     font-size: 21px;
-    color: #FB2E86;
-    
- }
- .paragraph_check{
+    color: #FB2E86;   
+}
+
+.paragraph_check{
     color: #B8B8DC;
- }
+}
+
 .back_image{
     background-color: #F6F7FB;
     border-radius: 50%;
 }
+
 .paragraph_categories{
     color:#151875;
     font-family: Josefin Sans;
     font-size: 20px;
 }
+
 .newsletter_h1{
     font-size: 35px;
     color: #151875;
     font-weight: bold;
 }
+
 .newsletter_image{
     background-image: url("../images/whiteimage.png");
 }
+
 .latest_paragraph{
     max-width: 38ch;
     color: #72718F;
 }
+
 .latest_title{
     color: #151875;
     font-size: 18px;
     font-weight: bold;
 }
+
 .shopgrid_div{
     background-color: #F6F5FF;
 }
+
 .shopgrid_text{
     color: #101750;
     font-size: 36px;
     font-weight: bold;
 }
+
 .shopgrid_paragraph{
     color:#FB2E86;
 }
+
 .ecommerce{
     color:#151875 ;
     font-size: 22px;
     font-weight: bold;
 }
+
 .results{
     color: #8A8FB9;
     font-size: 11px;
 }
+
 .filter{
     color:#3F509E;
 }
+
 .input{
     border:1px solid #E7E6EF;
 }
+
 .couch{
     background-color: #ECD2FA59;
     border-radius: 50% 55% / 50% 55%;
 }
+
 .blue_couch{
     background-color: #F5E1FC;
     border-radius: 55% 55% / 50% 50%;
 }
+
 .brown_couch{
     background-color: #F5E1FC;
     border-radius: 80% ;
 }
+
 .ecommerce_paragraph{
    color: #151875; 
    font-size: 18px;
    font-family: Josefin Sans;
    font-weight:bold;
 }
+
 .ecommerce_price{
     color: #151875; 
     font-size: 13px;
     font-family: Josefin Sans;
 }
+
 .reduce{
     font-family: Josefin Sans;
     font-size: 12px;
     text-align: center;
     text-decoration-line: line-through;
 }
+
 .ecommerce_reduced{
     color: #FB2E86; 
     font-size: 13px;
     font-family: Josefin Sans;
 }
+
 .shoplist_title{
     color:#111C85;
     font-size: 20px;
     font-family: Josefin Sans;
 }
+
 .shoplist_price{
     color:#111C85;
     font-size: 15px;
     font-family: Josefin Sans;
 }
+
 .shoplist_price_reduced{
     color:#FF2AAA;
     font-size: 15px;
     font-family: Josefin Sans;
 }
+
 .shoplist_text{
     font-weight: 400;
     color:#9295AA;
@@ -286,6 +343,7 @@ li {
     font-family: Josefin Sans;
     font-weight:bold;
 }
+
 .order_paragraph{
     color:#8D92A7;
     font-size: 16px;
@@ -293,12 +351,15 @@ li {
     font-weight: 600;
     max-width: 80ch;
 }
+
 .about_paragraph{
     max-width: 65ch;
 }
+
 .about_div{
     background-color: #FBFBFF;
 }
+
 .client_paragraph{
     color: #8A8FB9;
     font-size: 16px;
@@ -306,12 +367,14 @@ li {
     font-weight: 700;
     max-width: 80ch;
 }
+
 .client_name{
     font-size: 22px;
     font-weight: 600;
     font-family: Lato;
     color: #151875;
 }
+
 .contact_paragraph{
     color: #8A8FB9;
     font-size: 16px;
@@ -324,20 +387,15 @@ li {
     .lamp{
       display: none;
     }
+
     .swiper_feature{
         width: 400px;
         height: 250px;
     }
+
     .swiper_categories{
         width: 400px;
         height: 250px;
-
-    }
-    
-   
+    } 
 }
   
-  @media only screen and (max-width: 414px) {
-  
- 
-  }

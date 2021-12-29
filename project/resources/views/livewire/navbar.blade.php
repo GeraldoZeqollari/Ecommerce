@@ -80,8 +80,9 @@
                 <a href="#">Pages</a>
                 <a href="#">Products</a>
                 <a href="{{route('blog')}}">Blog</a>
-                <a href="#">Shop</a>
-                <a href="#">Contact</a>
+                <a href="{{ route('shoplist') }}">Shoplist</a>
+                <a href="{{ route('shopgrid') }}">Shopgrid</a>
+                <a href="{{ route('contact') }}">Contact</a>
             </div>   
 
                 <form action="{{ route('search') }}" method="GET">

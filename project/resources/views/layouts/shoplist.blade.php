@@ -6,6 +6,8 @@
     href="https://use.fontawesome.com/releases/v5.10.2/css/all.css"
   />
     @livewireStyles
+
+  
 </head>
 <body>
   
@@ -20,7 +22,6 @@
       <livewire:shop-list-items title="Accumsan tincidunt" price="$26.00" reduced_price="$50.00" 
       description="Lorem ipsum sit amet , consectetur aplisiscing elit.Magna in est adiplsicng in phaselluf non in justo"
       image="{{URL::to('/images/shoplist.png')}}" />
-
       <livewire:shop-list-items title="Accumsan tincidunt" price="$26.00" reduced_price="$50.00" 
       description="Lorem ipsum sit amet , consectetur aplisiscing elit.Magna in est adiplsicng in phaselluf non in justo"
       image="{{URL::to('/images/shoplist.png')}}" />
