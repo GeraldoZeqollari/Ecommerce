@@ -6,6 +6,28 @@
     href="https://use.fontawesome.com/releases/v5.10.2/css/all.css"
   />
     @livewireStyles
+      <script>
+    var i;
+    var elements = document.getElementsByClassName("image");
+    var row=document.getElementsByClassName("img");
+
+    function listView() {
+              for (i = 0; i < elements.length; i++) {
+                elements[i].style.display="block";
+              }
+
+              for (i = 0; i < row.length; i++) {
+                row[i].style.padding="50px";
+              }
+    }
+
+    function gridView() {
+        for (i = 0; i < elements.length; i++) {
+          elements[i].style.display = "flex";
+        }
+    }
+    
+    </script>
 </head>
 <body>
   

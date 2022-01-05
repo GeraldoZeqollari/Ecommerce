@@ -50,6 +50,7 @@ Route::post('/blog', [CommentController::class, 'store'])->name('comment');
 
 Route::get('/shopgrid', [ShopgridController::class, 'index'])->name('shopgrid');
 
+
 Route::get('/shoplist', [ShopgridController::class, 'shoplist'])->name('shoplist');
 
 Route::get('/order', [ShopgridController::class, 'order'])->name('order');

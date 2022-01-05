@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Sort;
+use App\Models\Image;
 use Illuminate\Http\Request;
 
 class ShopgridController extends Controller
@@ -10,6 +12,7 @@ class ShopgridController extends Controller
     {
         return view('layouts.shopgrid');
     }
+
     public function shoplist()
     {
         return view('layouts.shoplist');
