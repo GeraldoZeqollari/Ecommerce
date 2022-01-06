@@ -33,7 +33,6 @@
   
     @livewire('navbar') 
   
-   
     <livewire:shop-grid title="Shop Grid Default" text="ShopGridDefault"/>
       
     <livewire:ecommerce title="Ecommerce Accessories & Fashion item" results="About 9620 results(0.62 seconds)" 

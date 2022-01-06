@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <link rel="stylesheet" href="{{mix('css/app.css')}}">
     <link href="{{ asset('css/page.css') }}" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css"/>
@@ -42,11 +41,11 @@
   
   @livewire('navbar') 
   
-  
   <div class="color lg:pl-16 md:pl-8 sm:pl-4 flex">
       <div class="swiper ">
         <div class="swiper-wrapper">
           <div class="swiper-slide flex">
+
             <div>
               <img src="{{ URL::to('/images/lamp.png') }}" class="lamp" width="387" height="387">
                 <div class="lamp lg:pt-24 lg:pl-20">
@@ -70,6 +69,7 @@
                 <img src="{{ URL::to('/images/couch.png') }}"  width="629" height="629"> 
               </div> 
             </div>
+
           </div>
 
           <div class="swiper-slide flex">
@@ -80,7 +80,6 @@
                       <circle cx="7.5" cy="7.5" r="7.5" fill="#FB2E86"/>
                     </svg>
                   </div>
-      
             </div>   
               
             <div class="lg:pt-40 md:pt-16">
@@ -145,18 +144,21 @@
               <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
               <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
           </div>
+
           <div class="swiper-slide flex gap-9">
               <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
               <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
               <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
               <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
           </div>
+
           <div class="swiper-slide flex gap-9">
               <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
               <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
               <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
               <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
           </div>
+
         </div>
         <div class="swiper-pagination"></div>
       </div>
@@ -190,6 +192,7 @@
           <livewire:shopex-offer image="{{URL::to('/images/truck.jpg')}}" text="24/7 Support" description="Lorem ipsum dolor sit amet,consectur adipiscng elit.Massa purus gravida."/>
           <livewire:shopex-offer image="{{URL::to('/images/truck.jpg')}}" text="24/7 Support" description="Lorem ipsum dolor sit amet,consectur adipiscng elit.Massa purus gravida."/>
       </div>
+
   </div>
 
   <div class="div_color flex justify-center" >
@@ -201,7 +204,6 @@
           </div>
 
           <div class="lg:pt-24 sm:pt-12">
-
               <h1 class="h1_position text-3xl">Unique Features Of leatest & Trending Poducts</h1>
                     <div class=" lg:pt-11 sm:pt-6">
                         <ul class="description_color">
@@ -211,16 +213,17 @@
                         </ul>
                     </div>
 
-                  <div class="lg:pt-9 sm:pt-5 flex items-center gap-4">
-                    <button class="shop_button lg:h-10 sm:h-7 lg:w-32 sm:w-28">Add To Cart</button>
-                    <div>
-                      <p class="paragraph_color">B&B Italian Sofa</p>
-                      <p class="paragraph_color">$32.00</p>
+                    <div class="lg:pt-9 sm:pt-5 flex items-center gap-4">
+                      <button class="shop_button lg:h-10 sm:h-7 lg:w-32 sm:w-28">Add To Cart</button>
+                      <div>
+                        <p class="paragraph_color">B&B Italian Sofa</p>
+                        <p class="paragraph_color">$32.00</p>
+                      </div>
                     </div>
-                  </div>
           </div>
 
       </div>
+
   </div>
 
   <div class="flex flex-col items-center">
@@ -335,7 +338,7 @@
   <div class="flex flex-col items-center ">
 
           <div class="lg:pt-32 sm:pt-16">
-            <livewire:product-title title_text="Leatest Blog"/>
+              <livewire:product-title title_text="Leatest Blog"/>
           </div>
 
           <div class="lg:flex lg:flex-row lg:pt-20 sm:pt-12 lg:gap-12 sm:flex sm:flex-col sm:gap-5 lg:pb-24">

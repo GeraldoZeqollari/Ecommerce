@@ -3,7 +3,6 @@
     <link href="{{ asset('css/page.css') }}" rel="stylesheet" type="text/css">
 </head>
 <body>
-    
     <div class="flex items-center justify-center min-h-screen bg-gray-100">
         <div class="px-8 py-6 mt-4 text-left bg-white shadow-lg">
             <form action="" method="Post" enctype="multipart/form-data">

@@ -19,32 +19,33 @@
     per_page="Per_page" sort="Sort By" view="View"/>
 
     <div class="flex flex-col items-center lg:gap-8">
-      <livewire:shop-list-items title="Accumsan tincidunt" price="$26.00" reduced_price="$50.00" 
-      description="Lorem ipsum sit amet , consectetur aplisiscing elit.Magna in est adiplsicng in phaselluf non in justo"
-      image="{{URL::to('/images/shoplist.png')}}" />
-      <livewire:shop-list-items title="Accumsan tincidunt" price="$26.00" reduced_price="$50.00" 
-      description="Lorem ipsum sit amet , consectetur aplisiscing elit.Magna in est adiplsicng in phaselluf non in justo"
-      image="{{URL::to('/images/shoplist.png')}}" />
+        <livewire:shop-list-items title="Accumsan tincidunt" price="$26.00" reduced_price="$50.00" 
+        description="Lorem ipsum sit amet , consectetur aplisiscing elit.Magna in est adiplsicng in phaselluf non in justo"
+        image="{{URL::to('/images/shoplist.png')}}" />
 
-      <livewire:shop-list-items title="Accumsan tincidunt" price="$26.00" reduced_price="$50.00" 
-      description="Lorem ipsum sit amet , consectetur aplisiscing elit.Magna in est adiplsicng in phaselluf non in justo"
-      image="{{URL::to('/images/shoplist.png')}}" />
+        <livewire:shop-list-items title="Accumsan tincidunt" price="$26.00" reduced_price="$50.00" 
+        description="Lorem ipsum sit amet , consectetur aplisiscing elit.Magna in est adiplsicng in phaselluf non in justo"
+        image="{{URL::to('/images/shoplist.png')}}" />
 
-      <livewire:shop-list-items title="Accumsan tincidunt" price="$26.00" reduced_price="$50.00" 
-      description="Lorem ipsum sit amet , consectetur aplisiscing elit.Magna in est adiplsicng in phaselluf non in justo"
-      image="{{URL::to('/images/shoplist.png')}}" />
+        <livewire:shop-list-items title="Accumsan tincidunt" price="$26.00" reduced_price="$50.00" 
+        description="Lorem ipsum sit amet , consectetur aplisiscing elit.Magna in est adiplsicng in phaselluf non in justo"
+        image="{{URL::to('/images/shoplist.png')}}" />
 
-      <livewire:shop-list-items title="Accumsan tincidunt" price="$26.00" reduced_price="$50.00" 
-      description="Lorem ipsum sit amet , consectetur aplisiscing elit.Magna in est adiplsicng in phaselluf non in justo"
-      image="{{URL::to('/images/shoplist.png')}}" />
+        <livewire:shop-list-items title="Accumsan tincidunt" price="$26.00" reduced_price="$50.00" 
+        description="Lorem ipsum sit amet , consectetur aplisiscing elit.Magna in est adiplsicng in phaselluf non in justo"
+        image="{{URL::to('/images/shoplist.png')}}" />
 
-      <livewire:shop-list-items title="Accumsan tincidunt" price="$26.00" reduced_price="$50.00" 
-      description="Lorem ipsum sit amet , consectetur aplisiscing elit.Magna in est adiplsicng in phaselluf non in justo"
-      image="{{URL::to('/images/shoplist.png')}}" />
+        <livewire:shop-list-items title="Accumsan tincidunt" price="$26.00" reduced_price="$50.00" 
+        description="Lorem ipsum sit amet , consectetur aplisiscing elit.Magna in est adiplsicng in phaselluf non in justo"
+        image="{{URL::to('/images/shoplist.png')}}" />
 
-      <livewire:shop-list-items title="Accumsan tincidunt" price="$26.00" reduced_price="$50.00" 
-      description="Lorem ipsum sit amet , consectetur aplisiscing elit.Magna in est adiplsicng in phaselluf non in justo"
-      image="{{URL::to('/images/shoplist.png')}}" />
+        <livewire:shop-list-items title="Accumsan tincidunt" price="$26.00" reduced_price="$50.00" 
+        description="Lorem ipsum sit amet , consectetur aplisiscing elit.Magna in est adiplsicng in phaselluf non in justo"
+        image="{{URL::to('/images/shoplist.png')}}" />
+
+        <livewire:shop-list-items title="Accumsan tincidunt" price="$26.00" reduced_price="$50.00" 
+        description="Lorem ipsum sit amet , consectetur aplisiscing elit.Magna in est adiplsicng in phaselluf non in justo"
+        image="{{URL::to('/images/shoplist.png')}}" />
     </div>
 
     <div class="lg:py-20 sm:py-12"> <center><img src="{{ URL::to('/images/design.png') }}" width="903" height="93"></center> </div>

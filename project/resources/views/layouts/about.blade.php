@@ -13,22 +13,18 @@
   
     <livewire:shop-grid title="About Us" text="About Us"/>
     
-        <div class="lg:flex lg:flex-row  justify-center sm:flex sm:flex-col sm:items-center gap-6  py-28">
-       
+    <div class="lg:flex lg:flex-row  justify-center sm:flex sm:flex-col sm:items-center gap-6  py-28">
             <img src="{{ URL::to('/images/meet.png') }}" width="550" height="390">
-        
             <div>
-                 <h1 class="h1_position text-4xl lg:pt-6 sm:pt-4">Know About Our Ecommerce Business, History</h1>
-
-                 <p class="lg:pb-24 sm:pb-8 pt-4 list_element about_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mattis neques ultirces
+                    <h1 class="h1_position text-4xl lg:pt-6 sm:pt-4">Know About Our Ecommerce Business, History</h1>
+                    <p class="lg:pb-24 sm:pb-8 pt-4 list_element about_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mattis neques ultirces
                          mattis aliquam, malesuada diam est.Malesuada sem tristique amet erat vita eeget
                         dolor lobortis. Accumsan faucibus vitae lobortis quis bibendium quam.
-                 </p>
+                    </p>
 
-                <button class="shop_button lg:h-11 lg:w-36 sm:h-10">Contact Us</button>
+                    <button class="shop_button lg:h-11 lg:w-36 sm:h-10">Contact Us</button>
             </div>
-    
-        </div>
+    </div>
 
     <livewire:product-title title_text="Our Features"/>
     
@@ -46,9 +42,7 @@
 
             <div class="flex lg:gap-6 lg:pt-10">
                 <img src="{{ URL::to('/images/first.png') }}" class="lg:py-4" width="55" height="55">
-
                 <div><img src="{{ URL::to('/images/second.png') }}" class="lg:pb-4" width="55" height="55"></div>
-
                 <img src="{{ URL::to('/images/third.png') }}" class="lg:py-4" width="55" height="55">
             </div>
         

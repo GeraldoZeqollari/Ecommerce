@@ -14,7 +14,6 @@
            <div class="flex lg:gap-6">
                 <p class="paragraph_color">{{$price}}</p> 
                 <p class=" price_color">{{$reduced_price}}</p> 
-
            </div>
     </div>
 </div>

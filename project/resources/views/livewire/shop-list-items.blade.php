@@ -1,13 +1,10 @@
-<head>
 
-</head>
-<body>
-<div class="flex border_color items-center gap-7 pt-4 shadow-lg">
-  <div>
-    <img src="{{ $image }}" width="313" height="217">
-  </div>
+  <div class="flex border_color items-center gap-7 pt-4 shadow-lg">
+    <div>
+      <img src="{{ $image }}" width="313" height="217">
+    </div>
 
-  <div>
+    <div>
         <h1 class="shoplist_title py-4 ">{{$title}}</h1>
         <div class="flex gap-4">
           <p class="shoplist_price">{{$price}}</p>
@@ -21,7 +18,5 @@
             <p><i class="far fa-heart"></i></p>
             <p><i class="fas fa-search-plus"></i></p>
         </div>
+    </div>
   </div>
-
-</div>
-</body>

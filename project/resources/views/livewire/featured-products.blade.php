@@ -1,6 +1,5 @@
-
 <div>
- <div class="shadow-lg">
+  <div class="shadow-lg">
     <div class="border_color image_color lg:pl-3 lg:pt-4 lg:pb-3 ">
         <div class="div">
           <img src="{{ URL::to('/images/chair.png') }}" width="178" height="178">
