@@ -138,7 +138,7 @@
 
       <div class="swiper swiper_feature">
         <div class="swiper-wrapper">
-          <div class="swiper-slide lg:flex gap-9">
+          <div class="swiper-slide flex gap-9">
               <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
               <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
               <livewire:featured-products title="Cantilever chair" code="Y531241" price="$42.00"/>
